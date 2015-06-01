@@ -1,0 +1,76 @@
+
+body {
+	background-color: #7487A2;
+}
+
+h1{
+	font-family: Garamond;
+	font-weight: normal;
+	font-size: 34px;
+	color: white;
+	vertical-align: left;
+	margin-top: 80px; 
+	margin-left: 50px;
+	padding right: 10px;
+	max-width: 230px;
+}
+
+img {
+	max-height: 80px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+div {
+	
+	font-family: Garamond;
+	color: beige;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-family: Garamond;
+	max-width: 190px;
+	margin-left: 50px;
+	font-size: 22px;
+	margin-top: 50px;
+}
+
+h3 {
+	font-weight: normal;
+	max-width: 300px;
+	margin-left: 70px;
+	padding-top: 20px;
+	color: white;
+
+}
+.olive {
+	background-color: #443f17;
+	color: beige;
+	font-weight: normal;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 4px;
+
+
+}
+
+.cream {
+	background-color: #c9b787;
+	color: beige;
+	font-weight: normal;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+p {
+	margin-left: 70px;
+	margin-right: 70px;
+	font-family: Garamond;
+	font-size: 20px;
+	color: beige;
+
+
+}
