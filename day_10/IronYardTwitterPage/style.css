@@ -1,0 +1,84 @@
+
+
+
+body {
+	font-family: Helvetica;
+}
+
+.mainheader {
+	position: relative;
+	max-width: 1280px;
+	background: url(assets/images/banner.jpg);
+	background-size: cover;
+	height: 373px;
+}
+
+
+
+.nav-bar {
+	overflow: hidden;
+	width: 100%;
+	max-width: 1280px;
+	background-color: #fff;
+	height: 49px;
+	position: fixed;
+}
+
+.twitterlogo {
+	width: 25px;
+	margin-top: 14px;
+	margin-left: 195px;
+}
+
+/* --------- Typography --------- */
+
+
+.article-txt
+
+.tweeter-articletitle-txt {
+	font-weight: bold
+}
+
+.label-text {
+	color:	#647a8a;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+/* --------- Buttons --------- */
+
+.topbtn {
+	border: 2px gray solid;
+	border-radius: 17px;
+	background-color: #f5f8fa;
+	height: 36px;
+	width: 237px;
+	float: right;
+	margin-top: 7px;
+	padding-left: 16px; 
+	padding-top: 10px;
+	text-align: left;
+	vertical-align: center;
+	box-sizing: border-box;
+	margin-right: 40px;
+}
+
+strong {
+	font-weight: bold;
+	font-size: 16px;
+	color: #293e4c;
+}
+
+.bkgd-icon {
+	background: url(assets/icons/search.png);
+	background: no-repeat;
+}
+
+.float-rt {
+	float: right;
+			}
+
+.margin-btn {
+	margin-top: 20px;
+	margin-right: 193px;
+}
