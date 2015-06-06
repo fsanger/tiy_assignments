@@ -3,7 +3,10 @@
 
 body {
 	font-family: Helvetica;
+	background-color: #f5f8fa;
 }
+
+/* --------- Sections --------- */
 
 .mainheader {
 	position: relative;
@@ -13,22 +16,58 @@ body {
 	height: 373px;
 }
 
-
-
 .nav-bar {
 	overflow: hidden;
 	width: 100%;
 	max-width: 1280px;
 	background-color: #fff;
-	height: 49px;
+	height: 50px;
 	position: fixed;
 }
 
-.twitterlogo {
-	width: 25px;
-	margin-top: 14px;
-	margin-left: 195px;
+.logomasthead {
+	position: relative;
+	max-width: 1280px;
+	height: 63px;
+	background-color: #fff;
+	border-bottom: 1px solid #e7edf0;
 }
+
+.tweet-stats-bar {
+	background-color: beige;
+	height: 63px;
+	width: 635px;
+	margin-left: 485px;
+}
+
+/*.maincontent {
+	min-height: 300px;
+	background-color: gray;
+	max-width: 947px;
+	margin-left: 172px;
+	margin-right: 161px;
+	overflow: hidden;
+}
+*/
+
+.left-col-ironyard {
+	float: left;
+	background-color: red;
+	width: 312px;
+	min-height: 60px;
+	margin-left: 174px;
+}
+
+.right-col-twitterfeed {
+	float: left;
+	width: 635px;
+	background-color: green;
+	min-height: 60px;
+}
+
+
+
+
 
 /* --------- Typography --------- */
 
@@ -40,33 +79,106 @@ body {
 }
 
 .label-text {
-	color:	#647a8a;
-	font-size: 14px;
+	color:	#7e909f;
+	font-size: 13px;
 	font-weight: normal;
 }
+.account-text {
+	font-size: 10pt;
+	float: right;
+	color: #849098;
+}
 
-/* --------- Buttons --------- */
+.tweet-stats {
+	display: inline-block;
+	text-align: center;
+	font-size: 11pt;
+	font-family: Helvetica;
+	font-variant: small-caps;
+	font-weight: normal;
+	color: #455763;
+	line-height: 140%;
+	padding: 10px 14px 0 14px;
+}
+
+.stat-numbers {
+	font-size: 19;
+	color: black;
+}
+
+.stat-number-hilite {
+	border-bottom: 4px solid #0095d4;
+	padding-bottom: 8px;
+	padding-right: 16px;
+	padding-left: 16px;
+}
+
+.stat-number-normal {
+	color: #0095d4 ;
+}
+
+.flush-left {
+	padding-left: 0;
+}
+
+
+
+/* --------- Buttons + Icons (header)--------- */
 
 .topbtn {
-	border: 2px gray solid;
+	border: 2px #e7edf0 solid;
 	border-radius: 17px;
 	background-color: #f5f8fa;
 	height: 36px;
 	width: 237px;
 	float: right;
 	margin-top: 7px;
-	padding-left: 16px; 
+	padding-left: 16px;
 	padding-top: 10px;
 	text-align: left;
 	vertical-align: center;
 	box-sizing: border-box;
-	margin-right: 40px;
+	margin-right: 20px;
 }
+
+/*.follow-btn { 
+	box-size :border-box;
+	display: inline-block;
+	border: 2px #e7edf0 solid;
+	border-radius: 5px;
+	background-color: #f5f8fa;
+	height: 20px;
+	margin-top: 7px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 30px;
+	padding-bottom: 8px;
+
+}
+
+.follow-txt {
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+
+}
+
+.follow-icon {
+	height: 30px;
+	padding-right: 8px;
+}*/
+
+
+
+/* --------- --------- */
 
 strong {
 	font-weight: bold;
-	font-size: 16px;
-	color: #293e4c;
+}
+
+.login {
+	font-size: 15px;
+	color: #849098;
 }
 
 .bkgd-icon {
@@ -82,3 +194,27 @@ strong {
 	margin-top: 20px;
 	margin-right: 193px;
 }
+
+.twitterlogo {
+	width: 27px;
+	margin-top: 16px;
+	margin-left: 180px;
+}
+
+/* --------- Logos --------- */
+
+.ironyardlogomain {
+	box-siziing: border-box;
+	position: absolute;
+	width: 218px;
+	height: 218px;
+	border-radius: 14px;
+	background-color: #fff;
+	left: 158px;
+	bottom: -38px;
+	padding: 4px 4px;
+	border: 1px solid #e7edf0;
+
+}
+
+
