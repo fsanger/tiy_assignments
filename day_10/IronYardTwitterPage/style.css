@@ -1,6 +1,5 @@
 
 
-
 body {
 	font-family: Helvetica;
 	background-color: #f5f8fa;
@@ -34,7 +33,7 @@ body {
 }
 
 .tweet-stats-bar {
-	background-color: beige;
+	background-color: white;
 	height: 63px;
 	width: 635px;
 	margin-left: 485px;
@@ -52,19 +51,56 @@ body {
 
 .left-col-ironyard {
 	float: left;
-	background-color: red;
 	width: 312px;
-	min-height: 60px;
+	min-height: 600px;
 	margin-left: 174px;
 }
 
 .right-col-twitterfeed {
 	float: left;
 	width: 635px;
-	background-color: green;
-	min-height: 60px;
+	min-height: 600px;
 }
 
+
+/* --------- Left column Ironyard --------- */
+
+h1 {
+	/* --the Iron Yard text -- */
+	margin-top: 50px;
+	font-family: Helvetica;
+	font-size: 18pt;
+	color: black;
+	font-weight: bold;	
+}
+
+
+
+
+/* --------- Right column Twitterfeed --------- */
+
+
+.tweet-headerbar {
+	width: 635px;
+	background-color: white;
+	min-height: 60px;
+	margin-top: 10px;
+	border-radius: 8px 8px 0 0;
+	border: 1px solid #e7edf0;}
+
+.tweetbar-links {
+	display: inline-block;
+	font-size: 19px;
+	letter-spacing: .4px;
+	color: #0095d4;
+	font-weight: 400;
+	margin: 16px;
+}
+
+.tweetbar-links-hilite {
+	color: black;
+	font-weight: bold;
+}
 
 
 
@@ -108,9 +144,9 @@ body {
 
 .stat-number-hilite {
 	border-bottom: 4px solid #0095d4;
-	padding-bottom: 8px;
+	padding-bottom:	9px;
 	padding-right: 16px;
-	padding-left: 16px;
+	padding-left: 18px;
 }
 
 .stat-number-normal {
@@ -118,8 +154,10 @@ body {
 }
 
 .flush-left {
-	padding-left: 0;
+	padding-left: 8px;
 }
+
+
 
 
 
@@ -153,16 +191,12 @@ body {
 	padding-top: 5px;
 	padding-right: 30px;
 	padding-bottom: 8px;
-
 }
-
 .follow-txt {
 	font-weight: bold;
 	font-size: 16px;
 	text-align: left;
-
 }
-
 .follow-icon {
 	height: 30px;
 	padding-right: 8px;
@@ -216,5 +250,3 @@ strong {
 	border: 1px solid #e7edf0;
 
 }
-
-
