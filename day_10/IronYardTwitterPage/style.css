@@ -60,25 +60,11 @@ body {
 	min-height: 600px;
 }
 
-.tweet-id-logos {
-	width: 50px;
-	margin-top: 5px;
-}
-
-.tweet-type-icon {
-	width: 16px;
-	float: right;
-}
-
-.tweet-cat-label {
-	color: #677d8e;
-	font-size: 8px;
-}
 
 /* --------- Left column Ironyard --------- */
 
 h1 {
-	/* --the Iron Yard text -- */
+	/* --the Iron Yard large text -- */
 	margin-top: 50px;
 	font-family: Helvetica;
 	font-size: 18pt;
@@ -144,9 +130,41 @@ h1 {
 .logo_tiy {
 	width: 20px;
 	padding-top: 5px;
-	vertical-align: center;
-
 }
+
+.tweet-id-logos {
+	width: 50px;
+	margin-top: 5px;
+}
+
+.tweet-type-icon {
+	width: 16px;
+	float: right;
+}
+
+.tweet-cat-label {
+	color: #677d8e;
+	font-size: 8px;
+}
+
+.img1 {
+	width: 118px;
+	float: right;
+	padding-right: 12px;
+	margin-top: -30px;
+	padding-left: 12px;
+}
+
+
+/*
+.label-blue {
+	color: #0095d4 ;
+	font-weight: bold;
+}
+
+.v-cntr-txt {
+	vertical-align: center;
+}*/
 
 
 
@@ -154,7 +172,12 @@ h1 {
 /* --------- Typography --------- */
 
 
-.article-txt
+.article-txt {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 120%; 	
+	margin-top: 8px;
+}
 
 .tweeter-articletitle-txt {
 	font-weight: bold
@@ -221,6 +244,10 @@ em {
 	padding-top: 5px;
 }
 
+.vert-sp-20px {
+	padding-top: 20px;
+}
+
 h2 {
 	font-size: 30px;
 	font-weight: 200%;
@@ -232,6 +259,12 @@ h2 {
 
 span {
 	color: #0095d4;
+}
+
+h3 {
+	font-size: 15px;
+	color: #0095d4;
+	margin-top: 12px;
 }
 
 
