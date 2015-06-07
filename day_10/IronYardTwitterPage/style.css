@@ -155,6 +155,12 @@ h1 {
 	padding-left: 12px;
 }
 
+.btm-line {
+	width: 561px;
+	border-bottom: 2px solid #e7edf0;
+	padding-bottom: 10px;
+}
+
 
 /*
 .label-blue {
@@ -285,6 +291,27 @@ h3 {
 	box-sizing: border-box;
 	margin-right: 20px;
 }
+
+
+.action-icons {
+	height: 17px;
+}
+
+.horiz {
+	padding-top: 12px;
+	display: inline-block;
+}
+
+.num {
+	font-size: 12px;
+	color: #63798a;
+	font-weight: bold;
+}
+.h-spce {
+	padding-right: 40px; 
+}
+
+
 
 /*.follow-btn { 
 	box-size :border-box;
