@@ -22,6 +22,7 @@ body {
 	background-color: #fff;
 	height: 50px;
 	position: fixed;
+	z-index: 2;
 }
 
 .logomasthead {
@@ -30,6 +31,7 @@ body {
 	height: 63px;
 	background-color: #fff;
 	border-bottom: 2px solid #e7edf0;
+	z-index: 1;
 }
 
 .tweet-stats-bar {
@@ -51,7 +53,7 @@ body {
 	float: left;
 	width: 312px;
 	min-height: 600px;
-	margin-left: 174px;
+	margin-left: 170px;
 }
 
 .right-col-twitterfeed {
@@ -79,13 +81,13 @@ h1 {
 
 
 .tweet-headerbar {
-	box-sizing: border-box;
 	width: 635px;
 	background-color: white;
-	min-height: 48px;
 	margin-top: 10px;
 	border-radius: 8px 8px 0 0;
-	border: 2px solid #e7edf0;}
+	border: 2px solid #e7edf0;
+	padding-top: 3px;
+}
 
 .tweetbar-links {
 	display: inline-block;
@@ -93,7 +95,7 @@ h1 {
 	letter-spacing: .4px;
 	color: #0095d4;
 	font-weight: 400;
-	margin: 16px;
+	margin: 17px;
 }
 
 .tweetbar-links-hilite {
@@ -102,28 +104,34 @@ h1 {
 }
 
 .tweets {
+	overflow: hidden;
 	width: 635px;
+	background-color: white;
+	border-left: 2px solid #e7edf0;
+	border-bottom: 2px solid #e7edf0;
+	border-right: 2px solid #e7edf0;
+	padding-bottom: 10px;
+
 }
 
 .logo-column {
 	box-sizing: border-box;
 	float: left;
 	width: 74px;
-	min-height: 1000px;
-	background-color: white;
+	/*background-color: white;
+	border-left: 2px solid #e7edf0;*/
 	padding-left: 12px;
 	padding-right: 12px;
-	border-left: 2px solid #e7edf0;
 	padding-top: 12px;
+	background-color: white;
 }
 
 .tweet-boxes {
 	box-sizing: border-box;
 	float: right;
-	width: 561px;
+	width: 559px;
 	background-color: white;
 	min-height: 100px;
-	border-right: 2px solid #e7edf0;
 	padding-top: 12px;
 }
 
@@ -155,10 +163,21 @@ h1 {
 	padding-left: 12px;
 }
 
+.image2 {
+	width: 470px;
+	overflow: hidden;
+	float: top;
+	border-radius: 10px 10px;
+	padding-right: 200px;
+}
+
+.image2 img {
+	width: 100%;
+}
+
+
 .btm-line {
 	width: 561px;
-	border-bottom: 2px solid #e7edf0;
-	padding-bottom: 10px;
 }
 
 
@@ -228,9 +247,49 @@ h1 {
 	color: #0095d4 ;
 }
 
-.flush-left {
+.flush-left { 
 	padding-left: 8px;
 }
+
+.flush-right {
+	float: right;	
+	padding-right: 12px;
+}
+
+/* --------- Typography Plus - IronYard section--------- */
+
+.intro-text {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 140%; 	
+	margin-top: 8px;
+	margin-right: 30px; 
+}
+
+.at-text {
+	font-size: 16px;
+	padding-top: 4px; 
+}
+
+.intro-sm-icon {
+	height: 16px;
+	float: left;
+}
+
+.photo-container {
+	width: 280px;
+	padding-top: 12px;
+}
+
+.sq {
+	width: 90px;
+	border-radius: 5px;
+
+}
+
+
+
+
 
 /* --------- Typography - Tweet boxes--------- */
 
@@ -379,7 +438,7 @@ strong {
 	border-radius: 14px;
 	background-color: #fff;
 	left: 158px;
-	bottom: -38px;
+	bottom: -34px;
 	padding: 4px 4px;
 	border: 1px solid #e7edf0;
 
