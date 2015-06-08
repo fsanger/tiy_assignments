@@ -271,6 +271,11 @@ h1 {
 	padding-top: 4px; 
 }
 
+
+/* --------- Left Column Iron Yard --------- */
+
+
+
 .intro-sm-icon {
 	height: 16px;
 	float: left;
@@ -284,10 +289,66 @@ h1 {
 .sq {
 	width: 90px;
 	border-radius: 5px;
-
 }
 
+.sign-up-block {
+	box-sizing: border-box;
+	margin-top: 25px;
+	width: 312px;
+	height: 162px;
+	border-radius: 10px;
+	background-color: #e1e8ed;
+	position: relative;
+	right: 12px;
+	padding-left: 16px;
+	font-weight: 100;
+	font-size: 24px;
+	color: #66747e;
+	padding-top: 22px;
+}
 
+.sign-up-btn {
+	box-sizing: border-box;
+	position: relative;
+	width: 282px;
+	height: 44px;
+	background-color: #0095d4;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	margin-top: 6px;
+	padding-top: 14px;
+}
+
+.gray {
+	color: #718594;
+	font-size: 15;
+}
+
+.white-block {
+	box-sizing: border-box;
+	margin-top: 10px;
+	width: 312px;
+	height: 304px;
+	border-radius: 10px;
+	background-color: #fff;
+	position: relative;
+	right: 12px;
+	border: 2px solid #e7edf0;
+}
+
+.white-block-label {
+	font-weight: 100;
+	font-size: 20px;
+	margin-top: 14px;
+	color: #66747e;
+	padding-left: 16px;
+}
+
+.span2 {
+	font-size: 14px;
+}
 
 
 
