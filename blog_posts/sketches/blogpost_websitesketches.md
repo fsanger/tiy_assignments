@@ -21,39 +21,39 @@ ArtoftheMenu.com
 
 Fuzzco.com
 
-![ArtoftheMenu.com)](sketch_ArtOfTheMenu.jpg)
+![Fuzzco.com)](sketch_Fuzzco.jpg)
 
 
 Github.com (personal page)
 
-![ArtoftheMenu.com)](sketch_ArtOfTheMenu.jpg)
+![Github.com)](sketch_Github.jpg)
 
   
 
 Mashable.com
 
- ![ArtoftheMenu.com)](sketch_ArtOfTheMenu.jpg)
+ ![Mashable.com)](sketch_Mashable.jpg)
 
 
 
 Nest.com
 
-![ArtoftheMenu.com)](sketch_ArtOfTheMenu.jpg)
+![Nest.com)](sketch_Nest.jpg)
 
 
 
 NewYorkTimes.com
 
-![ArtoftheMenu.com)](sketch_ArtOfTheMenu.jpg)
+![NewYorkTimes.com)](sketch_NewYorkTimes.jpg)
 
 
 Penguin.com
 
-![ArtoftheMenu.com)](sketch_ArtOfTheMenu.jpg)
+![Penguin.com)](sketch_Penguin.jpg)
 
 
 Time.com
 
-![ArtoftheMenu.com)](sketch_ArtOfTheMenu.jpg)
+![Time.com)](sketch_Time.jpg)
 
 
