@@ -32,8 +32,13 @@ Github.com (personal page)
 
 Mashable.com
 
- ![Mashable.com)](sketch_Mashable.jpg)
+![Mashable.com)](sketch_Mashable.jpg)
 
+
+
+Medium.com
+
+![Medium.com)](sketch_Medium.jpg)
 
 
 Nest.com
