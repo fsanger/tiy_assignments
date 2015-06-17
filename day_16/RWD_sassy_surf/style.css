@@ -9,15 +9,17 @@ body {
 .mainheader {
   position: relative;
   background: url(mainphoto.jpg);
-  background-size: cover; }
+  background-size: cover;
+  min-height: 250px; }
 
 h1 {
-  padding-top: 35px;
+  padding-top: 30px;
   font-size: 3.2em;
   font-weight: bold;
   color: white;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  clear: both; }
 
 h3 {
   float: left;
@@ -53,43 +55,44 @@ h6 {
   margin-right: 20%; }
 
 .nav {
-  font-size: 1.8em;
-  float: left;
+  font-size: 1.9em;
   color: #083452;
-  position: relative; }
+  position: relative;
+  text-align: center; }
   .nav ul {
     position: relative; }
 
 .li-padding-surfnpaddle {
-  padding-top: 24px;
+  padding-top: 10px;
   padding-left: 3%;
   text-align: center; }
 
 .li-padding-about {
-  padding-top: 10px;
-  float: left;
-  text-align: center; }
+  padding-top: 20px;
+  margin-right: 10%;
+  display: inline-block; }
 
 .li-padding-search {
-  padding-top: 10px;
-  padding-left: 5%;
-  text-align: center; }
+  padding-top: 20px;
+  display: inline-block; }
+
+.snp {
+  width: 47px;
+  margin: 0 auto; }
 
 .snplogo {
   margin-top: 9px;
-  float: left;
-  margin-left: 30px;
+  max-width: 100%;
   position: relative; }
 
 .mag-glassicon {
-  margin-left: 13px;
-  margin-top: 30px; }
+  display: none; }
 
 .p-tagline {
   font-size: 1.4em;
   color: white;
   text-align: center;
-  margin-top: 4px;
+  padding-top: 10;
   padding-bottom: 30px; }
 
 .article-title {
@@ -162,11 +165,7 @@ p {
   float: left;
   font-size: 1.6em;
   color: #a3b3bf;
-  padding-top: 25px;
-  margin: 0 auto; }
-
-.twitterpadding {
-  margin-left: 5px; }
+  padding-top: 25px; }
 
 .surfermama {
   width: 60%;
@@ -248,7 +247,7 @@ p {
   color: #083452;
   float: left;
   padding-left: 20px;
-  margin-top: 254px; }
+  margin-top: 256px; }
 
 .blocktitle-3 {
   display: inline-block;
@@ -256,8 +255,7 @@ p {
   color: #083452;
   float: left;
   padding-left: 20px;
-  padding-top: 249px;
-  line-height: 120%; }
+  padding-top: 278px; }
 
 .fontwhite {
   color: white; }
