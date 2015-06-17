@@ -4,8 +4,7 @@ body {
 
 .container {
   position: relative;
-  overflow: hidden;
-  max-width: 400%; }
+  overflow: hidden; }
 
 .mainheader {
   position: relative;
@@ -19,6 +18,39 @@ h1 {
   color: white;
   position: relative;
   text-align: center; }
+
+h3 {
+  float: left;
+  border-left: 2px solid #a3b3bf;
+  font-size: 2.4em;
+  color: #106db3;
+  font-style: italic;
+  margin-left: 8%;
+  margin-top: 13px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-left: 3%; }
+
+h5 {
+  float: left;
+  font-size: 1.1em;
+  font-style: bold;
+  height: 10px;
+  color: white;
+  background-color: #a3b3bf;
+  display: inline;
+  margin-top: 20px;
+  padding: 10px; }
+
+h6 {
+  float: left;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.6em;
+  color: #106db3;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%; }
 
 .nav {
   font-size: 1.8em;
@@ -40,7 +72,7 @@ h1 {
 
 .li-padding-search {
   padding-top: 10px;
-  padding-left: 10%;
+  padding-left: 5%;
   text-align: center; }
 
 .snplogo {
@@ -59,5 +91,197 @@ h1 {
   text-align: center;
   margin-top: 4px;
   padding-bottom: 30px; }
+
+.article-title {
+  padding-top: 30px;
+  font-size: 3em;
+  color: 000000;
+  line-height: 130%;
+  padding-bottom: 20px;
+  padding-left: 8%;
+  padding-right: 8%; }
+
+.roundphoto {
+  width: 40px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 8%; }
+
+.datetext {
+  font-size: 1.2em;
+  color: #A3B0B6;
+  float: left;
+  padding-left: 5%;
+  line-height: 200%;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.datetext-underline {
+  font-style: underline; }
+
+p {
+  font-size: 1.4em;
+  color: #646464;
+  line-height: 160%;
+  padding-top: 20px;
+  padding-left: 8%;
+  padding-right: 8%; }
+
+.left-article-column p {
+  clear: left; }
+
+.right-photo-column {
+  width: 100%;
+  background-color: white;
+  overflow: hidden; }
+
+.squaregray {
+  float: left;
+  width: 33px;
+  background-color: #5e686f;
+  display: inline;
+  margin-top: 20px; }
+
+.squaredkblue {
+  float: left;
+  width: 33px;
+  background-color: #083452;
+  margin-top: 20px; }
+
+.iconbox-padding {
+  margin-left: 1%; }
+
+.roundphoto-lg {
+  width: 84px;
+  border-radius: 42px;
+  margin-top: 50px;
+  margin-left: 40%;
+  margin-left: 40%; }
+
+.social {
+  float: left;
+  font-size: 1.6em;
+  color: #a3b3bf;
+  padding-top: 25px;
+  margin: 0 auto; }
+
+.twitterpadding {
+  margin-left: 5px; }
+
+.surfermama {
+  width: 60%;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  clear: left;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.linkone {
+  font-size: 1.2em;
+  color: #a3b3bf;
+  float: right;
+  margin-right: 20%; }
+
+.link2 {
+  color: #106db3; }
+
+.linkcolorgray {
+  color: #a3b3bf; }
+
+.caption {
+  float: left;
+  font-size: 1.2em;
+  color: #a3b3bf; }
+
+.post-section {
+  position: relative;
+  border-top: 1px solid #a3b3bf;
+  width: 400px;
+  height: 40px;
+  background-color: white;
+  color: #083452;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 16px;
+  clear: left;
+  margin-top: 30px; }
+
+.photo1 {
+  display: inline-block;
+  float: left;
+  background: url(surfer.jpg);
+  background-size: cover;
+  position: relative;
+  width: 400px; }
+
+.photo2 {
+  display: inline-block;
+  float: left;
+  background: url(beer.jpg);
+  background-size: cover;
+  position: relative;
+  width: 400px;
+  height: 330px; }
+
+.photo3 {
+  display: inline-block;
+  float: left;
+  background: url(zack.jpg);
+  background-size: cover;
+  position: relative;
+  width: 400px;
+  height: 330px; }
+
+.photo4 {
+  display: inline-block;
+  float: left;
+  background: url(booze.jpg);
+  background-size: cover;
+  position: relative;
+  width: 400px;
+  height: 330px; }
+
+.blocktitles {
+  display: inline-block;
+  font-size: 3em;
+  color: #083452;
+  float: left;
+  padding-left: 20px;
+  margin-top: 254px; }
+
+.blocktitle-3 {
+  display: inline-block;
+  font-size: 3em;
+  color: #083452;
+  float: left;
+  padding-left: 20px;
+  padding-top: 249px;
+  line-height: 120%; }
+
+.fontwhite {
+  color: white; }
+
+.footer-blue {
+  float: left;
+  height: 180px;
+  width: 100%;
+  background-color: #083452; }
+
+.footer-element-logo {
+  display: inline-block;
+  margin-top: 28px;
+  margin-left: 45%;
+  margin-right: 45%; }
+
+.footer-text {
+  font-weight: lighter;
+  font-size: 1.2em;
+  color: #a6b4bd;
+  text-align: center;
+  font-weight: bold; }
+
+.footer-margin325 {
+  margin-left: 10%; }
 
 /*# sourceMappingURL=style.css.map */
