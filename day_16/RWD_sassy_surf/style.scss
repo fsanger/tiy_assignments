@@ -1,0 +1,469 @@
+
+
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 62.5%; 
+}
+
+// This is the styling for smartphones 
+
+.container {
+	position: relative;
+	overflow: hidden;
+	max-width: 400%;
+	}
+
+	.mainheader {
+		position: relative;
+		background: url(mainphoto.jpg);
+		background-size: cover;
+	}
+
+	h1 {
+		padding-top: 35px;
+		font-size: 3.2em;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		text-align: center;
+	}
+
+
+	.nav {
+		font-size: 1.8em;
+		float:left;
+		color: #083452;
+		position: relative;
+			ul {
+			position: relative;
+		}
+}
+	.li-padding-surfnpaddle {
+		padding-top: 24px;
+		padding-left: 3%;
+		text-align: center;
+}
+
+	.li-padding-about {
+		padding-top: 10px;
+		float: left;
+		text-align: center;
+}
+
+	.li-padding-search {
+		padding-top: 10px;
+		padding-left: 10%;
+		text-align: center;
+
+}
+
+	.snplogo {
+		margin-top: 9px;
+		float: left; 
+		margin-left: 30px;
+		position: relative;
+	}
+		
+	.mag-glassicon {
+		margin-left: 13px;
+
+		margin-top: 30px;
+}
+
+	.p-tagline {
+		font-size: 1.4em;
+		color: white;
+		text-align: center;
+		margin-top: 4px;
+		padding-bottom: 30px;
+	}
+
+
+
+// @media screen and (min-width: 800px) {
+	// This is the media query for desktop monitors 
+
+	// .container {
+	// 	width: 100%;
+	// 	position: relative;
+	// 	margin: 0;
+	// }
+	// .mainheader {
+	// 	max-width: 1300px;
+	// 	background: url(mainphoto.jpg);
+	// 	background-size: cover;
+	// 	height: 521px;
+	// }
+
+// 	header {
+// 	position: fixed;
+// 	max-width: 1300px;
+// 	}	
+// }
+
+
+
+
+// header {
+// 	position: fixed;
+// 	max-width: 1300px;
+// }
+
+// h1 {
+// 	padding-top: 172px;
+// 	font-size: 11.1em;
+// 	font-weight: bold;
+// 	color: white;
+// 	position: relative;
+// 	text-align: center;
+// // }
+
+// h3 {
+// 	float: left;
+// 	border-left: 3px solid #a3b3bf;
+// 	font-size: 2.4em;
+// 	color: #106db3;
+// 	font-style: italic;
+// 	margin-top: 22px;
+// 	padding-top: 20px;
+// 	padding-bottom: 8px;
+// 	padding-left: 16px;
+// 	margin-bottom: 6px;
+// }
+
+// h5 {
+// 	float: left;
+// 	font-size: 1.1em;
+// 	height: 10px;
+// 	color: white;
+// 	background-color: #a3b3bf;
+// 	display: inline;
+// 	margin-top: 20px;
+// 	padding: 10px;
+// 	padding-right: 12px;
+// }
+
+// h6 {
+// 	float: left;
+// 	margin-top: 44px;
+// 	font-weight: bold;
+// 	font-size: 1.3em;
+// 	color: #106db3;
+// 	text-align: left;
+// 	background-color: white;
+// }
+
+// p { 
+// 	float: left;
+// 	font-size: 1.2em;
+// 	color: #646464;
+// 	line-height: 160%;
+// 	padding-top: 25px;
+// }
+
+
+// .nav {
+// 	font-size: 1.8em;
+// 	float:left;
+// 	color: #083452;
+// 	position: relative;
+// 	padding-top: 24px;
+// 		ul {
+// 		position: relative;
+// 	}
+
+
+// }
+
+// li {
+// 	list-style-type: none;
+// 	float: left;
+// }
+
+// .snplogo {
+// 	margin-top: 9px;
+// 	float: left; 
+// 	margin-left: 100px;
+// 	position: relative;
+// }
+
+// .mag-glassicon {
+// 	margin-left: 13px;
+// 	position: relative;
+// 	display: inline;
+// 	margin-top: 16px;
+// }
+
+// .p-tagline {
+// 	width: 1300px;
+// 	font-size: 1.6em;
+// 	color: white;
+// 	text-align: center;
+// 	margin-top: -40px;
+// }
+
+// .li-padding-surfnpaddle {
+// 	padding-left: 12px;
+// }
+
+// .li-padding-about {
+// 	padding-left: 556px;
+// }
+
+// .li-padding-search {
+// 	padding-left: 26px;
+// }
+
+// .white-midsection {
+// 	background-color: white;
+// 	position: relative;
+// 	max-width: 1300px;
+// 	overflow: hidden;
+// }
+
+// .two-column-container{
+// 	width: 74.923%; /* 974px ÷ 1300px = % of total width */
+// 	background-color: white;
+// 	overflow: hidden;
+// 	margin: 0 auto;}
+
+// .left-article-column {
+// 	float: left;
+// 	width: 47.153%; /* 613px ÷ 1300 = % of total width */
+// 	background-color: white;
+// }
+
+// .roundphoto {
+// 	width: 22px;
+// 	border-radius: 11px;
+// 	float: left;
+// }
+
+// .roundphoto-lg {
+// 	width: 84px;
+// 	border-radius: 42px;
+// 	margin-top: 88px;
+// 	margin-left: 95px;
+// }
+
+// .right-photo-column {
+// 	width: 361px;
+// 	background-color: white;
+// 	float: right;
+// }
+
+// .centered-photo-content{
+// 	background-color: white;
+// 	float: left;
+// 	height: 1007px;
+// 	width: 276px;
+// }
+
+// .wh-space-blocks {
+// 	width: 85px;
+// 	height: 1007px;
+// 	background-color: white;
+// 	float: left;
+// }
+
+// .article-title {
+// 	padding-top: 90px;
+// 	font-size: 3.6em;
+// 	color: 000000;
+// 	line-height: 120%;
+// 	padding-bottom: 12px;
+// }
+
+// .datetext {
+// 	font-size: 0.9em;
+// 	color: #A3B0B6;
+// 	float: left;
+// 	padding-left: 70px;
+// 	line-height: 200%;
+// 	padding-bottom: 10px;
+// }
+
+// .datetext-underline {
+// 	font-style: underline;
+// }
+
+
+// .squaregray {
+// 	float: left;
+// 	width: 33px;
+// 	background-color: #5e686f;
+// 	display: inline;
+// 	margin-top: 20px;
+// }
+
+// .squaredkblue {
+// 	float: left;
+// 	width: 33px;
+// 	background-color: #083452;
+// 	display: inline;
+// 	margin-top: 20px;
+// }
+
+// .iconbox-padding {
+// 	margin-left: 10px;
+// }
+
+// .squaremedblue {
+// 	float: left;
+// 	width: 33px;
+// 	background-color: #106db3;
+// 	display: inline;
+// 	margin-top: 20px;
+// }
+
+// .medbluebox {
+// 	background-color: #106db3;
+// }
+
+// .social {
+// 	float: left;
+// 	font-size: 1em;
+// 	color: #a3b3bf;
+// 	padding-left: 18px;
+// 	padding-top: 35px;
+// }
+
+// .twitterpadding {
+// 	margin-left: 20px;
+// }
+
+// .surfermama {
+// 	width: 276px;
+// 	margin-top: 56px;
+// 	margin-bottom: 12px;
+// }
+
+// .linkone {
+// 	font-size: 1.4em;
+// 	color: #a3b3bf;
+// 	float: right;
+// 	background-color: white;
+// }
+
+// .link2 {
+// 	color: #106db3;
+// }
+
+// .linkcolorgray {
+// 	color: #a3b3bf;
+// }
+
+// .caption {
+// 	float:left;
+// 	font-size: 1.1em;
+// 	color: #a3b3bf;
+// }
+
+// .post-section {
+// 	position: relative;
+// 	border-top:1px solid #a3b3bf;
+// 	width: 1300px;
+// 	height: 80px;
+// 	background-color: white;
+// 	color: #083452;
+// 	font-size: 6.2em;
+// 	text-align: center;
+// 	padding-top: 48px;
+// 	padding-bottom: 16px;
+// }
+
+
+// .photo1 {
+// 	display: inline-block;
+// 	float: left;
+// 	background: url(surfer.jpg);
+// 	background-size: cover;
+// 	position: relative;	
+// 	width: 325px;
+// 	height: 330px;
+// }
+
+// .photo2 {
+// 	display: inline-block;
+// 	float: left;
+// 	background: url(beer.jpg);
+// 	background-size: cover;
+// 	position: relative;	
+// 	width: 325px;
+// 	height: 330px;
+// }
+
+// .photo3 {
+// 	display: inline-block;
+// 	float: left;
+// 	background: url(zack.jpg);
+// 	background-size: cover;
+// 	position: relative;		
+// 	width: 325px;
+// 	height: 330px;
+// }
+
+// .photo4 {
+// 	display: inline-block;	
+// 	float: left;
+// 	background: url(booze.jpg);
+// 	background-size: cover;
+// 	position: relative;	
+// 	width: 325px;
+// 	height: 330px;
+// }
+
+// .blocktitles {
+// 	display: inline-block;
+// 	font-size: 3em;
+// 	color: #083452;	
+// 	float: left;
+// 	padding-left: 20px;
+// 	margin-top: 254px;
+// 	}
+
+// .blocktitle-3 {
+// 	display: inline-block;
+// 	font-size: 3em;
+// 	color: #083452;	
+// 	float: left;
+// 	padding-left: 20px;
+// 	padding-top: 249px; 
+// 	line-height: 120%;
+// 	}
+
+// .fontwhite {
+// 	color: white;
+// }
+
+// .footer-blue {
+// 	float: left;
+// 	height: 97px;
+// 	width: 1300px;
+// 	background-color: #083452;
+// }
+
+// .footer-element-logo {
+// 	float: left;
+// 	margin-top: 28px;
+// 	margin-left: 160px;
+// }
+
+// .footer-text {
+// 	float: left;
+// 	margin-top: 15px;
+// 	margin-left: 15px;
+// 	font-weight: lighter;
+// 	font-size: 1.3em;
+// 	color: #a6b4bd;
+// }
+
+// .footer-margin325 {
+// 	margin-left: 325px;
+// }
+
+// .footer-nav {
+// 	margin-left: 460px;
+
+// }
