@@ -14,7 +14,7 @@ body {
 
 h1 {
   padding-top: 30px;
-  font-size: 3.2em;
+  font-size: 3.5em;
   font-weight: bold;
   color: white;
   position: relative;
@@ -281,5 +281,113 @@ p {
 
 .footer-margin325 {
   margin-left: 10%; }
+
+@media screen and (min-width: 501px) {
+  .container {
+    position: relative;
+    overflow: hidden; }
+
+  .mainheader {
+    position: relative;
+    background: url(mainphoto.jpg);
+    background-size: cover;
+    min-height: 300px; }
+
+  h1 {
+    padding-top: 60px;
+    font-size: 6em;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    text-align: center;
+    clear: both; }
+
+  h3 {
+    float: left;
+    border-left: 2px solid #a3b3bf;
+    font-size: 2.4em;
+    color: #106db3;
+    font-style: italic;
+    margin-left: 8%;
+    margin-top: 13px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 3%; }
+
+  h5 {
+    float: left;
+    font-size: 1.1em;
+    font-style: bold;
+    height: 10px;
+    color: white;
+    background-color: #a3b3bf;
+    display: inline;
+    margin-top: 20px;
+    padding: 10px; }
+
+  h6 {
+    float: left;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #106db3;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%; }
+
+  .nav {
+    font-size: 1.8em;
+    float: left;
+    color: #083452;
+    position: relative;
+    padding-top: 24px; }
+    .nav ul {
+      position: relative; }
+
+  li {
+    list-style-type: none;
+    float: left; }
+
+  .snplogo {
+    margin-top: 15px;
+    float: left;
+    margin-left: 100px;
+    position: relative; }
+
+  .mag-glassicon {
+    margin-left: 13px;
+    display: inline;
+    margin-top: 16px; }
+
+  .p-tagline {
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+    margin-top: 10px; }
+
+  .li-padding-surfnpaddle {
+    margin-right: 30px;
+    padding-left: 12px; }
+
+  .li-padding-about {
+    padding-left: 56px; }
+
+  .li-padding-search {
+    padding-left: 26px; }
+
+  .article-title {
+    padding-top: 30px;
+    font-size: 4.5em;
+    color: 000000;
+    line-height: 130%;
+    padding-bottom: 20px;
+    padding-left: 8%;
+    padding-right: 8%; }
+
+  .roundphoto {
+    width: 40px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 8%; } }
 
 /*# sourceMappingURL=style.css.map */

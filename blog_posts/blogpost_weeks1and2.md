@@ -27,7 +27,7 @@ Monday we plunged into Github and iTerm/the terminal. Woah, this seemed dangerou
 
 Then, CSS appeared. Initially overwhelming, it was also obvious how much easier it could make your life coding. Things fell into place, not always how you wanted, but even so, you saw the benefits. Divs (“when in doubt, put it in a div”), allowed CSS to make HTML what you intended. Completed the Shay Howe CSS online lessons, another good way to see all the possibilities that CSS offers. A lot to take in, but helpful.
 
-All in all, I was grasping what was going on, even if it was taking me way longer than would seem reasonable to achieve some basic projects. I felt inept sometimes, but realized I wasn’t alone and that others in the class, were also struggling at some point or another. All this was a lot of info to process. I began to figure out ways to congratulate myself for making it as far as I had. In two weeks I had learned quite a lot, even though I hadn’t mastered it yet.
+All in all, I was grasping what was going on, even if it was taking me way longer than would seem reasonable to achieve some basic projects. I felt inept sometimes, but realized I wasn’t alone and that others in the class were also struggling at some point or another. All this was a lot of info to process. I began to figure out ways to congratulate myself for making it as far as I had. In two weeks I had learned quite a lot, even though I hadn’t mastered it yet.
 
 And hold on, because, unbeknownst to us, _just over that thar hill_, was looming… Sass.
 
