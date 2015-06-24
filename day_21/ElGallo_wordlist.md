@@ -1,82 +1,87 @@
 
-*Things*
+_Things_
 
 rooster
-cock-fighting
+	*cock-fighting
 
-	bright colors
-		red
-		green
-			mexican flag				
-							serpent in beak of an eagle
-											cactus  
-												cactus pear    		
-																	desert
-																		thirsty
-																				no water
+bright colors
+		* red
+		* green
+			* mexican flag				
+				* serpent in beak of an eagle
+						* cactus  
+						* cactus pear    		
+						* desert
+						* thirsty
+							* no water
 
-		lime green											
-		gold	
-		blue
-		orange
+	* lime green											
+		* gold	
+		* blue
+		* orange
 
 since 1957
-	50s
-	throwback
-		50s style logos
-			black and white
-			brushscript font
-				questionable typography?					
-		50s cars
-																50s styles  
-																	beatnik
-																		James Dean
-																		Marilyn
+	* 50s
+	* throwback
+		* 50s style logos
+			* black and white
+			* brushscript font
+				* questionable typography?					
+		* 50s cars
+			* 50s styles  
+						* beatnik
+						* James Dean
+						* Marilyn
 
-			outlined type							tacky	
+			* outlined type							
+				* tacky	
 
 
 family-owned	
-				home-style
-					personal	
-							welcoming	
-					long-lived
-								resilient				
-					quaint
-				reputation
-						fame
-					dependable 		the place to go 			faded glory				distant past
-						heritage
+			* home-style
+				* personal	
+						* welcoming	
+				* long-lived
+						* resilient				
+						* quaint
+							* reputation
+						* fame
+				* dependable 		
+				* the place to go 			
+						* faded glory				
+						* distant past
+						* heritage
 
 				character	
 
 
-old school mexican food
-		classic
-				/ out of date
-			funky dive 
-						home made
+* old school mexican food
+		* classic
+		* out of date
+			* funky dive 
+						* home made
+							* don't make it like they used to
+							* better than now
+							* these are the good ole days
 
-										don't make it like they used to
-																	better than now
-																					 these are the good ole days
 
+* clay tile roof
+	* orange clay	
+		* quaint
+			* country 
+			* rustic	
+				* warm
+				* cozy			
+				* comfort				
+				* at home
 
-clay tile roof
-	orange clay	
-		quaint
-			country 
-				rustic	
-						warm
-								cozy			comfort				at home
-
-mulicolored rugs
-	sombreros
-	paper flowers
-		plastic flowers												graveyard
-						flowers							
-														our Lady of Guadelupe
-																tall glass votive candles with our Lady of Guadelupe
+* mulicolored rugs
+	* sombreros
+	* paper flowers
+		* plastic flowers............................................graveyard
+						* flowers							
+						*............................................our Lady of Guadelupe
+																		tall glass votive candles with our Lady of Guadelupe
 el gallo  
 		loteria cards
 					tarot cards
@@ -184,6 +189,27 @@ cerveza / Mexican brands
 			Negro Modelo
 			Corona
 			Bohemia
+
+
+People
+
+
+
+
+
+
+
+
+
+
+
+
+Places
+
+
+
+
+
 
 
 
