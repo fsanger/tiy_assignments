@@ -7,8 +7,6 @@ body {
 }
 
 
-
-
 // This is the styling for smartphones, and becomes the default  
 
 .container {
@@ -176,12 +174,12 @@ body {
 		overflow: hidden;
 	}
 
-
 	.squaregray {
 		float: left;
 		width: 33px;
 		background-color: #5e686f;
-		display: inline;
+		display: inline-block;
+		margin: 0 auto;
 		margin-top: 20px;
 	}
 
@@ -209,12 +207,8 @@ body {
 		font-size: 1.6em;
 		color: #a3b3bf;
 		padding-top: 25px;
-
 	}
 
-	.twitterpadding {
-
-	}
 
 	.surfermama {
 		width: 60%;
@@ -351,6 +345,12 @@ body {
 
 
 
+
+
+
+
+// .... Media query medium 
+
 @media screen and (min-width: 501px) {
 
 .container {
@@ -431,34 +431,38 @@ body {
 	.snplogo {
 		margin-top: 15px;
 		float: left; 
-		margin-left: 100px;
+		// margin-left: 100px;
 		position: relative;
 	}
 
 	.mag-glassicon {
-		margin-left: 13px;
+		float: right;
+		margin-right: 10%; 
 		display: inline;
-		margin-top: 16px;
+		margin-top: 26px;
 	}
 
 	.p-tagline {
-		font-size: 1.6em;
+		font-size: 1.8em;
 		color: white;
 		text-align: center;
-		margin-top: 10px;
+		// margin-top: 10px;
 	}
 
 	.li-padding-surfnpaddle {
-		margin-right: 30px;
-		padding-left: 12px;
+		// text-align: center;
+		// padding-left: 12px;
 	}
 
 	.li-padding-about {
-		padding-left: 56px;
+		float: right;
+		// padding-left: 56px;
 	}
 
 	.li-padding-search {
-		padding-left: 26px;
+		// padding-left: 26px;
+		float: right;
+
 	}
 
 	.article-title {
@@ -478,12 +482,68 @@ body {
 		margin-left: 8%;
 	}
 
+.roundphoto-lg {
+		width: 84px;
+		border-radius: 42px;
+		margin-top: 50px;
+		margin-left: 40%;
+		margin-left: 40%;
+	}
 
 
+.datetext {
+		font-size: 1.4em;
+	}
 
 
+.cntrls-cntr {
+		margin-top:15px;
+		margin-left: 26%;
+		margin-right: 26%;
+	}	
+
+.social {
+		float: left;
+		font-size: 1.6em;
+		color: #a3b3bf;
+		padding-top: 25px;
+
+	}
+
+.twitterpadding {
+
+	}
+
+.surfermama {
+		width: 40%;
+		margin-top: 35px;
+		margin-bottom: 12px;
+		clear: left;
+		margin-left: 20%;
+		margin-right: 20%;		
+	}
 
 
+.linkone {
+		font-size: 1.2em;
+		color: #a3b3bf;
+		float: right;
+		// margin-right: 20%;
+	}
+
+.link2 {
+		color: #106db3;
+	}
+
+.linkcolorgray {
+		color: #a3b3bf;
+	}
+
+.caption {
+		margin: 0 auto;
+		font-size: 1.2em;
+		color: #a3b3bf;
+	}
 
 
 

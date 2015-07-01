@@ -5,24 +5,23 @@ body {
   max-width: 1300px;
   position: relative;
   margin: 0 auto; }
-  .container .mainheader {
-    position: relative;
-    max-width: 1300px;
-    background: url(mainphoto.jpg);
-    background-size: cover;
-    height: 521px; }
 
 header {
-  position: fixed;
-  max-width: 1300px; }
+  position: relative;
+  max-width: 1300px;
+  background: url(mainphoto.jpg);
+  background-size: cover;
+  height: 521px; }
 
 h1 {
   padding-top: 172px;
-  font-size: 111px;
+  font-size: 65px;
   font-weight: bold;
   color: white;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%; }
 
 h3 {
   float: left;
@@ -63,24 +62,31 @@ p {
   line-height: 160%;
   padding-top: 25px; }
 
+.logo {
+  float: left; }
+
 .nav {
-  font-size: 18px;
+  font-size: 25px;
   float: left;
   color: #083452;
   position: relative;
   padding-top: 24px; }
-  .nav ul {
-    position: relative; }
 
 li {
   list-style-type: none;
-  float: left; }
+  display: inline-block; }
 
 .snplogo {
-  margin-top: 9px;
+  margin-top: 15px;
   float: left;
-  margin-left: 100px;
-  position: relative; }
+  position: relative;
+  margin-left: 5%;
+  padding-right: 10px; }
+
+.li-padding-surfnpaddle {
+  float: left;
+  margin-top: 15px;
+  font-size: 26px; }
 
 .mag-glassicon {
   margin-left: 13px;
@@ -94,15 +100,6 @@ li {
   color: white;
   text-align: center;
   margin-top: -40px; }
-
-.li-padding-surfnpaddle {
-  padding-left: 12px; }
-
-.li-padding-about {
-  padding-left: 556px; }
-
-.li-padding-search {
-  padding-left: 26px; }
 
 .white-midsection {
   background-color: white;
