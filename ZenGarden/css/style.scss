@@ -23,7 +23,7 @@ body {
 	font-weight: 400;
 	color: white;
 	// color: #6288a6;
-	background: url(images/backgroundtextNEW21.jpg);
+	background: url(/images/backgroundtextNEW21.jpg);
 	background-repeat: repeat-y;
 	background-attachment: fixed;
 	background-position: center;
@@ -157,7 +157,7 @@ p {
 }
 
 p:last-child {
-	border-bottom: 12px dotted #ffe866;
+	border-bottom: 12px dashed #ffe866;
 	padding-bottom: 4%;
 }
 

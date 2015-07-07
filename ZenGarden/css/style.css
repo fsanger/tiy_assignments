@@ -215,7 +215,7 @@ p {
   padding-top: 3%; }
 
 p:last-child {
-  border-bottom: 12px dotted #ffe866;
+  border-bottom: 12px dashed #ffe866;
   padding-bottom: 4%; }
 
 p:first-of-type {
