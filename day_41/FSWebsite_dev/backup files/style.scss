@@ -1,0 +1,91 @@
+
+
+p {
+font-family: "omnes-pro";
+font-size: 21em;
+font-weight: 300;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.quad_portfolio {
+	width: 50%;
+	background-color: white;
+	display: block;
+	float: left;
+	height: 50%;
+}
+
+
+.logo {
+	width: 24%;
+	height: 24%;
+	display: inline-block;
+	position: absolute;
+	top: 38.2%;
+	left: 37.5%;
+}	
+
+.quad_about {
+	width: 50%;
+	background-color: #F7F3DF;
+	display: block;
+	float: left;
+	height: 50%;
+}
+
+.quad_blog {
+	width: 50%;
+	background-color: #EDE9D1;
+	display: block;
+	float: left;
+	height: 50%;
+}
+
+.quad_contact {
+	width: 50%;
+	background-color: white;
+	display: block;
+	float: left;
+	height: 50%;
+}
+
+.int_quad {
+	width: 100%;
+	height: 100%;
+
+}
+
+.icon_center_v {
+	min-width: 40px;
+	width:10%;
+	max-width: 70px;
+	display: inline-block;
+	position: absolute;
+	top: 46%;
+}
+
+.icon_portfolio {
+	left: 4%;
+}
+
+.icon_about {
+	left: 20%;
+}
+
+.icon_blog {
+	right: 4%;
+}
+
+.icon_contact {
+	right: 20%;
+}
