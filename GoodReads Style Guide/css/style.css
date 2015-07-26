@@ -53,14 +53,17 @@ html, body {
 
 p {
   font-family: "omnes-pro";
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 400;
   letter-spacing: .04em;
   line-height: 1.3;
-  padding-bottom: 15px;
+  padding-bottom: 8px;
   padding-left: 12.5%;
-  padding-right: 12.5%;
-  padding-top: 14px; }
+  padding-right: 12.5%; }
+  p:first-child {
+    padding-top: 20px; }
+    p:first-child:last-child {
+      padding-bottom: 20px; }
 
 h1 {
   font-family: "museo-slab";
@@ -92,7 +95,7 @@ h3 {
   line-height: 1.4;
   font-variant: small-caps;
   letter-spacing: .05em;
-  color: black;
+  color: gray;
   cursor: pointer;
   padding-bottom: 10px;
   border-bottom: 1px gray solid;
@@ -102,15 +105,29 @@ h3 {
   margin-top: -1px;
   z-index: 7; }
 
-.image_grid1 {
-  background: url(../images/GR_home_GridLg.png);
-  background-size: cover;
-  width: 75%;
+h4 {
+  font-family: "omnes-pro";
+  font-weight: 500;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.4;
+  font-variant: small-caps;
+  letter-spacing: .05em;
+  color: gray;
   margin-left: 12.5%;
+  padding-right: 12.5%; }
+
+.images {
+  width: 75%;
   margin-right: 12.5%;
+  margin-left: 12.5%; }
+
+.image_grid1 {
+  margin-right: 12.5%;
+  margin-left: 12.5%;
   margin-bottom: 20px;
   margin-top: 20px;
-  height: 100%; }
+  max-height: 400px; }
 
 .dotlines {
   background: url(../images/GR_dottedlines.svg);
@@ -149,23 +166,24 @@ nav {
   overflow: hidden;
   margin: 10px; }
 
-@media only screen and (min-width: 481px) {
-  /* Tablet view */
-  .box {
-    width: 47.5%;
-    padding-bottom: 47.5%;
-    margin-right: 5%; } }
-@media only screen and (min-width: 651px) {
-  /* Small desktop / ipad view: 3 tiles */
-  .box {
-    width: 30%;
-    padding-bottom: 30%;
-    margin-right: 5%;
-    margin-right: 0; } }
-@media only screen and (min-width: 1051px) {
-  /* Medium desktop: 4 tiles */
-  .box {
-    width: 21.25%;
-    padding-bottom: 21.25%; } }
+@media only screen and (min-width: 480px) {
+  /* Tablet view */ }
+@media only screen and (min-width: 650px) {
+  /* Small desktop*/
+  .inner-div-text {
+    width: 50%; }
+
+  p {
+    padding-left: 25%; }
+
+  h4 {
+    padding-left: 12.5%; }
+
+  .inner-div-images {
+    width: 50%;
+    float: right;
+    margin-top: 60px; } }
+@media only screen and (min-width: 1050px) {
+  /* Medium desktop */ }
 
 /*# sourceMappingURL=style.css.map */
