@@ -120,14 +120,8 @@ h4 {
 .images {
   width: 75%;
   margin-right: 12.5%;
-  margin-left: 12.5%; }
-
-.image_grid1 {
-  margin-right: 12.5%;
   margin-left: 12.5%;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  max-height: 400px; }
+  margin-bottom: 20px; }
 
 .dotlines {
   background: url(../images/GR_dottedlines.svg);
