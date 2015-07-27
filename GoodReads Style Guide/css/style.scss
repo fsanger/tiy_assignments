@@ -45,6 +45,12 @@ margin-top: 25px;
 padding-bottom: 20px;
 }
 
+.logo-for-description {
+margin-top: 10px;
+padding-bottom: 5px;
+margin-bottom: 10px;
+}
+
 h2 {font-family: "omnes-pro";
 font-size: 2.4em;
 font-weight: 300;
@@ -99,16 +105,132 @@ padding-right: 12.5%;
   margin-right: 12.5%;
   margin-left: 12.5%;
   margin-bottom: 20px;
+  margin-top: 10px;
   // float: left;
 }
-// .image_grid1 {
-//   margin-right: 12.5%;
-//   margin-left: 12.5%;
-//   margin-bottom: 20px;
-//   margin-top: 20px;
-//   max-height: 400px;
-//   // float: left;
-// }
+
+.blue {
+background-color: $icon-blue;
+margin-top: 10px;
+}
+
+.green {
+background-color: $icon-green;
+margin-top: 10px;
+}
+
+.orange {
+background-color: $icon-orange;
+margin-top: 10px;
+}
+
+.red {
+background-color: $red;
+margin-top: 10px;
+}
+
+.pale-yellow{
+background-color: $accent-lightyellow;
+margin-top: 10px;
+}
+
+.pale-green{
+background-color: $accent-lightgreen;
+margin-top: 10px;
+}
+
+.pale-orange{
+background-color: $accent-lightorange;
+margin-top: 10px;
+}
+
+.black{
+background-color: $black;
+margin-top: 10px;
+}
+
+.darkgray{
+background-color: $darkgray;
+margin-top: 10px;
+}
+
+.lightgray{
+background-color: $lightgray;
+margin-top: 10px;
+}
+
+.color-swatch{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.swatch-section {
+  width: 75%;
+  margin-right: 12.5%;
+  margin-left: 12.5%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid lightgray;
+}
+
+.caption {
+  font-family: "omnes-pro";
+  font-weight: 500;
+  font-style: italic;
+  font-variant: uppercase;
+  line-height: 1.3;
+  letter-spacing:.05em;
+  color: gray;
+  margin-left: 80px;
+  font-size: 1em;
+  width: 150px;
+  padding-top: 10px;
+}
+
+.captionleft {
+  margin-left: 18%;
+  padding-top: 0px;
+}
+  
+
+.font-sample-section {
+  width: 75%;
+  margin-right: 12.5%;
+  margin-left: 12.5%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid lightgray;
+   &:nth-of-type(2)
+   &:nth-of-type(4) {
+    border-bottom: 1px solid lightgray;
+   }
+}
+
+
+.icon-display {
+  max-width: 350px;
+
+}
+
+.icon-section {
+  width: 75%;
+  margin-right: 12.5%;
+  margin-left: 12.5%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid lightgray;
+   }
+
+
+.font-descr {
+    margin-left: 0px;
+    font-style: normal;
+    font-size: 0.8em;
+}
 
 .dotlines {
   background: url(../images/GR_dottedlines.svg);
@@ -118,6 +240,68 @@ padding-right: 12.5%;
   // margin-bottom: 12px;
 }
 
+.museoslab-light {
+font-family: "museo-slab";
+font-size: 3.2em;
+font-weight: 300;
+color: $red; 
+margin-top: 10px;
+}
+
+.museoslab-heavy {
+font-family: "museo-slab";
+font-size: 0.95em;
+font-weight: 700;
+color: $darkgray; 
+margin-top: 15px;
+}
+
+.museo-light {
+font-family: "museo-sans";
+font-style: italic;
+font-size: 0.85em;
+font-weight: 300;
+line-height: 1.4;
+color: $darkgray; 
+margin-top: 15px;
+}
+
+.museo-heavy {
+font-family: "museo-sans";
+font-size: 1.1em;
+font-weight: 700;
+font-style: normal;
+line-height: 1.4;
+color: $black; 
+margin-top: 15px;
+}
+
+.enzo-bold {
+font-family: "ff-enzo-web";
+font-size: 1.2em;
+font-weight: 700;
+font-style: normal;
+line-height: 1.2;
+color: $black; 
+margin-top: 15px;
+
+}
+
+
+// .dotlines2 {
+//   width: 80%;
+//   background: url(../images/GR_dottedlines.svg);
+//   margin-right: 
+//   margin-left: 
+//   height: 5px;
+//   background-size: cover;
+//   margin-top: 15px;
+//   margin-bottom: 12px;
+//   padding-bottom: 2px;
+//   border-bottom: 2px gray solid;
+//   border-left: 1 px black dotted;
+
+// }
 body{
 	width: 100%;
 	position: absolute;
@@ -143,6 +327,7 @@ nav {
   margin-bottom: 10px;
   padding-bottom: 2px;
   border-bottom: 2px gray solid;
+  border-left: 1px dotted black;
 }
 
 .content {
@@ -150,7 +335,6 @@ nav {
   // added overflow hidden from codepen
   overflow: hidden;
 }
-
 
 .wrap {
    	overflow: hidden;
@@ -166,27 +350,31 @@ nav {
 
 .inner-div-text { 
   width: 50%;
+  float: left;
+  position: relative;
+  clear: float;
   // margin-left: 12.5%;
   // margin-right: 12.5%;
-}
-
-p {
-  padding-left: 25%;
-}
-
-h4 {
-  padding-left: 12.5%;
-}
-
-.inner-div-images {
-  width: 50%;
-  float: right;
-  margin-top: 60px;
-
+  overflow: hidden;
 }
 }
 
-@media only screen and (min-width : 1050px) {
-   /* Medium desktop */
+// p {
+//   padding-left: 25%;
+// }
 
-}
+// h4 {
+//   padding-left: 12.5%;
+// }
+
+// .inner-div-images {
+//   width: 50%;
+//   float: right;
+//   margin-top: 25px;
+//   position: relative;
+//   // padding-left: 0;
+// }
+
+// @media only screen and (min-width : 1050px) {
+//    /* Medium desktop */
+// }
