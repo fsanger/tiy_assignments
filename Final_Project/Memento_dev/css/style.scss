@@ -34,15 +34,15 @@ nav {
   margin-right: 10%;
 }
 
-.container {
+.containermain {
   width: 100%;
   overflow: hidden;
-  height: 3000px;
+  // height: 3000px;
 }
 
 .timeline-left {
   float: left;
-  height: 3000px;
+  // height: 3000px;
   background-color: $m-charcoal;
   // border-right: white 1px solid;
   padding-right: 10%;
@@ -292,6 +292,11 @@ background-color: $m-darkblue;
   margin-right: 10%;
   border-bottom: 2px white solid;
   border-top: 2px white solid;
+  width: 80%;
+}
+
+.threerowbox {
+  height: 140px;
 }
 
 .newchapterbutton {

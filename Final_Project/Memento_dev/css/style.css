@@ -924,14 +924,12 @@ nav {
   float: right;
   margin-right: 10%; }
 
-.container {
+.containermain {
   width: 100%;
-  overflow: hidden;
-  height: 3000px; }
+  overflow: hidden; }
 
 .timeline-left {
   float: left;
-  height: 3000px;
   background-color: #2c2e2e;
   padding-right: 10%;
   padding-left: 5%;
@@ -1106,7 +1104,11 @@ li {
   margin-left: 10%;
   margin-right: 10%;
   border-bottom: 2px white solid;
-  border-top: 2px white solid; }
+  border-top: 2px white solid;
+  width: 80%; }
+
+.threerowbox {
+  height: 140px; }
 
 .newchapterbutton {
   border-radius: 30px;
