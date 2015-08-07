@@ -96,6 +96,7 @@ h1 {
   font-weight: 400;
   font-size: 2.5em;
   line-height: 1.3;
+  // width: 300px;
   color: white;
   margin-top: 40px;
   padding-left: 10%;
@@ -113,6 +114,7 @@ h2 {
   padding-top: 80px;
   // padding-bottom: 80px;
   margin-bottom: 40px;
+  margin-right: 20px;
 }
 
 h3 {
@@ -617,18 +619,41 @@ li {
   margin-top: 72px;
   font-size: 1.1em;
 }
-// .menu {
-//   display: inline;
 
-// }
+.headerphoto {
+    width: 100%;
+    overflow: hidden;
+}
 
-// .nav-collapse {
-//   display: inline;
+h1 {
+  // width: 700px;
+  font-size: 4em;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
 
-// }
+h3 {
+  font-size: 2.5em;
+  line-height: 1.5;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
 
+h2 {
+  font-size: 2.7em;
+  // width: 500px;
+  line-height: 1.4;
+}
+
+
+p {
+font-size: 1.7em;
+// width: 600px;
+line-height: 1.5;
+}
 
 }
+
 
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>

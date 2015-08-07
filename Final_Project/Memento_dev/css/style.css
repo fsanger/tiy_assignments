@@ -983,7 +983,8 @@ h2 {
   color: white;
   padding-left: 10%;
   padding-top: 80px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  margin-right: 20px; }
 
 h3 {
   font-family: "calluna";
@@ -1300,6 +1301,29 @@ em {
 
   .newchapterbutton {
     margin-top: 72px;
-    font-size: 1.1em; } }
+    font-size: 1.1em; }
+
+  .headerphoto {
+    width: 100%;
+    overflow: hidden; }
+
+  h1 {
+    font-size: 4em;
+    padding-top: 40px;
+    padding-bottom: 60px; }
+
+  h3 {
+    font-size: 2.5em;
+    line-height: 1.5;
+    margin-top: 70px;
+    margin-bottom: 70px; }
+
+  h2 {
+    font-size: 2.7em;
+    line-height: 1.4; }
+
+  p {
+    font-size: 1.7em;
+    line-height: 1.5; } }
 
 /*# sourceMappingURL=style.css.map */
