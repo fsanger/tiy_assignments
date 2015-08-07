@@ -1,10 +1,8 @@
-
-
-@import 'reset';
-
-@import 'variables';
-
-@import 'responsive-nav';
+@import 'reset',
+'variables',
+'responsive-nav',
+'default',
+'component';
 
 @mixin font($em){
     font-size: ($em*16) + px;
@@ -94,11 +92,11 @@ p {
 
 h1 {
   font-family: "lato";
-  font-weight: 300;
+  font-style: italic;
+  font-weight: 400;
   font-size: 2.5em;
   line-height: 1.3;
   color: white;
-  font-style: italic;
   margin-top: 40px;
   padding-left: 10%;
   padding-bottom: 40px;
@@ -113,7 +111,7 @@ h2 {
   color: white;
   padding-left: 10%;
   padding-top: 80px;
-  padding-bottom: 80px;
+  // padding-bottom: 80px;
   margin-bottom: 40px;
 }
 
@@ -155,6 +153,7 @@ padding-bottom: 5px;
 li {
   font-family: "lato";
   font-size: 1.2em;
+  font-weight: 300;
   color: $m-cream;
   padding-left: 10%;
   text-transform: uppercase;
@@ -164,6 +163,20 @@ li {
   letter-spacing: 1.4px;
 }
 
+.mapsize {
+  width: 80%;
+  max-width: 600px;
+  position: inline-block ;
+  float: left;
+  clear: both;
+  margin-left: 8%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+
+  // max-width: 
+}
+
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // creation page
@@ -171,27 +184,27 @@ li {
 
 
 .wrapper {
-background-color: $m-medblue;
+  background-color: $m-medblue;
 // opacity: .5;
-height: 3000px;
+  height: 3000px;
   width: 100%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
 }
 
-form {
-// margin-top: 30px;
-height: 1800px;
-// margin-left: 5%;
-// margin-right: 5%;
-background-color: $m-medblue;
-}
+// form {
+// // margin-top: 30px;
+// height: 1800px;
+// // margin-left: 5%;
+// // margin-right: 5%;
+// background-color: $m-medblue;
+// }
 
 .creation-header {
 font-size: 2em;
 color: white;
-font-weight: 600;
+font-weight: 300;
 padding-top: 20px;
 padding-bottom:20px;
 border-bottom: 2px white solid;
@@ -202,13 +215,15 @@ background-color: $m-darkblue;
 .creation-subheader {
 font-size: 1.5em;
 color: white;
-font-weight: 600;
+font-weight: 300;
 padding-top: 8px;
 padding-bottom: 8px;
 margin-bottom: 20px;
 // border-bottom: 2px white solid;
 // border-top: 2px white solid;
-background-color: $m-darkblue
+background-color: $m-darkblue;
+  border-bottom: 2px white solid;
+  border-top: 2px white solid;
 }
 
 // .input-field {
@@ -275,7 +290,31 @@ background-color: $m-darkblue
   background-color: $m-charcoal;
   margin-left: 10%;
   margin-right: 10%;
+  border-bottom: 2px white solid;
+  border-top: 2px white solid;
 }
+
+.newchapterbutton {
+  border-radius: 30px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 2px white solid;
+  border-right: 2px white solid;
+  background-color: $m-darkblue;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 1.35em;
+  height: 25px;
+  padding-top: 0px;
+  margin-top: 50px;
+ }
+
+.textdec {
+  // text-decoration: none;
+  // input.submit:hover {
+  //   background-color: black}
+ }
 
 em {
   font-family: "lato";
@@ -288,6 +327,9 @@ em {
 
 .chapter {
   margin-bottom: 20px;
+  border-bottom: 2px white solid;
+  border-top: 2px white solid;
+
 }
 
 .chapter-no {
@@ -299,7 +341,151 @@ em {
   font-size: 1.2em;
   letter-spacing: 2px;
   padding-bottom: 5px;
+
 }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Chapter 4 input form page
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+.overlay-chapterbar {
+  margin-bottom: 0;
+  padding-left: 30%;
+  background-color: $m-medblue;
+
+}
+
+.overlay-container {
+  // margin-left: 10%;
+  // margin-right: 10%;
+  overflow: hidden;
+}
+
+.icon {
+  padding-top:5px;
+  box-sizing: border-box;
+  width: 65px;
+  height: 65px;
+  margin-left: 2%;
+  margin-right: 2%;
+  float: left;
+}
+
+.sizetext {
+  // height: 300px;
+  border-left: $m-mauve solid 10px;
+}
+
+.sizeimage {
+  // height: 200px;
+  border-left: $m-red solid 10px;
+}
+
+.sizevideo {
+  // height: 200px;
+  border-left: $m-yellow solid 10px;
+}
+
+
+.iconcontainer {
+  // padding-top: 8px;
+  background-color: $m-cream;
+  float: left;
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  // border-top: white 1px solid;
+}
+
+.text-right {
+  float: right;
+  display: block;
+  width: 70%;
+  clear: all; 
+}
+
+.icons-left {
+  float: left;
+  display: block;
+  clear: all;
+  width: 30%;
+}
+
+.icon-description{
+  font-family: "lato";
+  font-size: 0.8em;
+  letter-spacing: 1.2px;
+  line-height: 1.4;
+  background-color: $m-charcoal;
+  font-weight: 600;
+  color: $m-cream;
+  border-bottom: 2px white solid;
+  // border-top: 2px white solid;
+  float: right;
+  display: inline-block;
+  padding: 10px;
+  min-width: 100%;
+}
+
+// .content-containers {
+// height: 1800px;
+// width: 100%;
+// background-color: red;
+
+// }
+
+
+
+
+// .row {
+//   width: 30%;
+//   float: left;
+//   display: block;
+//   clear: float;
+// }
+
+// .input-column {
+//   width: 60%;
+//   float: right; 
+// }
+
+// .input-items {
+//   width: 100%;
+//   box-sizing: border-box;
+//   height: 70px;
+//   padding-top: 8px;
+//   // display: inline
+//   background-color: $m-cream;
+//   font-weight: 600;
+//   border-bottom: 2px white solid;
+//   border-top: 2px white solid;
+//   float: left;
+// }
+
+// .line {
+//   border-bottom: 2px white solid;
+//   border-top: 2px white solid;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // modal overlay page (scrolling sample)
@@ -333,7 +519,8 @@ em {
   left: 0;
   z-index: 1000;
   opacity: 0;
-  background: rgba(143,27,15,0.8);
+  background: rgba(38,23,36,0.8);
+  // background: $m-paleblue: #acb9c6;
   transition: all 0.3s;
 }
 
@@ -390,7 +577,6 @@ em {
   margin-bottom: 30px;
   // border-left: 1px white solid;
   // border-right: 1px white solid;
-
 }
 
 .intro-questions { 
@@ -406,7 +592,38 @@ em {
   // border-left: 1px white solid;
   // border-right: 1px white solid;
 }
+
+li {
+  font-family: "lato";
+  font-size: 1.2em;
+  color: $m-darkblue;
+  padding-left: 10%;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  border-bottom: none;
+  letter-spacing: 1.4px;
+  // display: inline;
+  float: left;
+  // outline: white 1px solid;
 }
+
+.newchapterbutton {
+  margin-top: 72px;
+}
+// .menu {
+//   display: inline;
+
+// }
+
+// .nav-collapse {
+//   display: inline;
+
+// }
+
+
+}
+
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>
    // overlay page
