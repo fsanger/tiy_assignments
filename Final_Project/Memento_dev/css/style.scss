@@ -186,7 +186,7 @@ li {
 .wrapper {
   background-color: $m-medblue;
 // opacity: .5;
-  height: 3000px;
+  // height: 3000px;
   width: 100%;
   position: relative;
   margin-left: auto;
@@ -300,16 +300,16 @@ background-color: $m-darkblue;
 }
 
 .newchapterbutton {
+  font-family: "lato";
   border-radius: 30px;
   width: 40%;
   margin-left: auto;
   margin-right: auto;
-  border-left: 2px white solid;
-  border-right: 2px white solid;
+  border: 2px white solid;
   background-color: $m-darkblue;
   font-variant: small-caps;
   text-align: center;
-  font-size: 1.35em;
+  font-size: 1.45em;
   height: 25px;
   padding-top: 0px;
   margin-top: 50px;
@@ -615,6 +615,7 @@ li {
 
 .newchapterbutton {
   margin-top: 72px;
+  font-size: 1.1em;
 }
 // .menu {
 //   display: inline;

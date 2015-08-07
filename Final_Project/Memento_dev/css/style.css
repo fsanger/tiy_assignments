@@ -314,7 +314,8 @@ perspective effects (not including the modals and the overlay).
   background: rgba(120, 132, 126, 0.9);
   position: relative;
   border-radius: 3px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%; }
 
 .md-content h3 {
   margin: 0;
@@ -1036,7 +1037,6 @@ li {
 
 .wrapper {
   background-color: #8ba0b1;
-  height: 3000px;
   width: 100%;
   position: relative;
   margin-left: auto;
@@ -1111,16 +1111,16 @@ li {
   height: 140px; }
 
 .newchapterbutton {
+  font-family: "lato";
   border-radius: 30px;
   width: 40%;
   margin-left: auto;
   margin-right: auto;
-  border-left: 2px white solid;
-  border-right: 2px white solid;
+  border: 2px white solid;
   background-color: #597289;
   font-variant: small-caps;
   text-align: center;
-  font-size: 1.35em;
+  font-size: 1.45em;
   height: 25px;
   padding-top: 0px;
   margin-top: 50px; }
@@ -1299,6 +1299,7 @@ em {
     float: left; }
 
   .newchapterbutton {
-    margin-top: 72px; } }
+    margin-top: 72px;
+    font-size: 1.1em; } }
 
 /*# sourceMappingURL=style.css.map */
