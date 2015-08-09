@@ -1047,6 +1047,21 @@ h3 {
   margin-top: 30px;
   color: #f6f1df; }
 
+h4 {
+  font-family: "lato";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2.2em;
+  line-height: 1.4;
+  color: white;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  padding-right: 10%;
+  background-color: #cf8a4f;
+  border-top: 2px white solid;
+  border-bottom: 2px white solid; }
+
 header {
   font-family: "lato";
   background: #2c2e2e;
@@ -1191,7 +1206,10 @@ li {
   min-height: 50%; }
 
 .mementobutton {
-  background-color: #2c2e2e; }
+  background-color: #2c2e2e;
+  height: 30px;
+  min-width: 200px;
+  padding-top: 4px; }
 
 em {
   font-family: "lato";
@@ -1276,6 +1294,12 @@ em {
   padding: 10px;
   min-width: 100%; }
 
+.tighten {
+  margin-bottom: 10px; }
+
+.centered {
+  margin-bottom: -30px; }
+
 .md-modal {
   position: fixed;
   top: 50%;
@@ -1308,6 +1332,12 @@ em {
   opacity: 1;
   visibility: visible; }
 
+.icons-all {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
 .cd-fixed-bg {
   min-height: 50%;
   background-size: cover;
@@ -1316,16 +1346,16 @@ em {
   background-position: center center; }
 
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("/images/cd-background-1.jpg"); }
+  background-image: url("../images/cd-background-1.jpg"); }
 
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("/images/cd-background-2.jpg"); }
+  background-image: url("../images/cd-background-2.jpg"); }
 
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("/images/cd-background-3.jpg"); }
+  background-image: url("../images/cd-background-3.jpg"); }
 
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("/images/cd-background-4.jpg"); }
+  background-image: url("../images/cd-background-4.jpg"); }
 
 .cd-scrolling-bg {
   min-height: 100%; }
@@ -1375,10 +1405,6 @@ em {
     padding-right: 10%; }
     .headerphoto .introimage-sizing {
       height: 100px; }
-    .headerphoto .mementobutton {
-      background-color: #a62522;
-      height: 100px;
-      border: 12px red solid; }
 
   h1 {
     font-size: 4em;
@@ -1408,7 +1434,8 @@ em {
 
   .centered {
     margin-left: 13%;
-    margin-right: 20%; } }
+    margin-right: 20%;
+    margin-bottom: -30px; } }
 @media only screen and (min-width: 1000px) {
   .headerphoto {
     padding-left: 15%;

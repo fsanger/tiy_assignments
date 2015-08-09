@@ -179,10 +179,6 @@ h1 {
   padding-right: 10%;
 }
 
-.h1main {
-
-}
-
 
 h2 {
   font-family: "calluna";
@@ -209,6 +205,25 @@ h3 {
   margin-bottom: 30px;
   margin-top: 30px;
   color: $m-cream;
+}
+
+h4 {
+  font-family: "lato";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2.2em;
+  line-height: 1.4;
+  // width: 300px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  padding-right: 10%;
+  background-color: $m-gold;
+  border-top: 2px white solid;
+  border-bottom: 2px white solid;
+
+
 }
 
 header {
@@ -416,8 +431,11 @@ background-color: $m-darkblue;
 
 .mementobutton {
 background-color: $m-charcoal;
-
+height: 30px;
+min-width: 200px;
+padding-top: 4px;
 }
+
 em {
   font-family: "lato";
   font-style: italic;
@@ -530,6 +548,14 @@ em {
   min-width: 100%;
 }
 
+.tighten {
+  margin-bottom: 10px;
+}
+
+.centered {
+  margin-bottom: -30px;
+}
+
 // .content-containers {
 // height: 1800px;
 // width: 100%;
@@ -616,6 +642,27 @@ em {
 
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// landing page 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+.icons-all {
+padding-left: 10%;
+padding-right: 10%;
+margin-top: 20px;
+margin-bottom: 40px;
+
+// background: $m-cream;
+
+}
+
+
+
+
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // experience page (scrolling sample)
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -629,16 +676,16 @@ em {
 }
  
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("/images/cd-background-1.jpg");
+  background-image: url("../images/cd-background-1.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("/images/cd-background-2.jpg");
+  background-image: url("../images/cd-background-2.jpg");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("/images/cd-background-3.jpg");
+  background-image: url("../images/cd-background-3.jpg");
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("/images/cd-background-4.jpg");
+  background-image: url("../images/cd-background-4.jpg");
 }
  
 .cd-scrolling-bg {
@@ -705,14 +752,6 @@ li {
 .introimage-sizing {
   height: 100px;
 }
-
-.mementobutton {
-background-color: $m-red;
-height: 100px;
-border: 12px red solid;
-}
-
-
 }
 
 // .herologo  {
@@ -762,9 +801,8 @@ margin-bottom: 50px;
 .centered {
   margin-left: 13%;
   margin-right: 20%;
+  margin-bottom: -30px;
 }
-
-
 
 }
 
