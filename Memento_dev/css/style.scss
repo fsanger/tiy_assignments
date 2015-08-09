@@ -179,10 +179,6 @@ h1 {
   padding-right: 10%;
 }
 
-.h1main {
-
-}
-
 
 h2 {
   font-family: "calluna";
@@ -416,8 +412,11 @@ background-color: $m-darkblue;
 
 .mementobutton {
 background-color: $m-charcoal;
-
+height: 30px;
+min-width: 200px;
+padding-top: 4px;
 }
+
 em {
   font-family: "lato";
   font-style: italic;
@@ -705,14 +704,6 @@ li {
 .introimage-sizing {
   height: 100px;
 }
-
-.mementobutton {
-background-color: $m-red;
-height: 100px;
-border: 12px red solid;
-}
-
-
 }
 
 // .herologo  {
@@ -762,9 +753,8 @@ margin-bottom: 50px;
 .centered {
   margin-left: 13%;
   margin-right: 20%;
+  margin-bottom: -30px;
 }
-
-
 
 }
 

@@ -1191,7 +1191,10 @@ li {
   min-height: 50%; }
 
 .mementobutton {
-  background-color: #2c2e2e; }
+  background-color: #2c2e2e;
+  height: 30px;
+  min-width: 200px;
+  padding-top: 4px; }
 
 em {
   font-family: "lato";
@@ -1375,10 +1378,6 @@ em {
     padding-right: 10%; }
     .headerphoto .introimage-sizing {
       height: 100px; }
-    .headerphoto .mementobutton {
-      background-color: #a62522;
-      height: 100px;
-      border: 12px red solid; }
 
   h1 {
     font-size: 4em;
@@ -1408,7 +1407,8 @@ em {
 
   .centered {
     margin-left: 13%;
-    margin-right: 20%; } }
+    margin-right: 20%;
+    margin-bottom: -30px; } }
 @media only screen and (min-width: 1000px) {
   .headerphoto {
     padding-left: 15%;
