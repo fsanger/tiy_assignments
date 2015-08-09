@@ -942,7 +942,7 @@ nav {
 .line {
   margin-left: 15%;
   border-left: 1px #f6f1df solid;
-  height: 3000px; }
+  height: 5000px; }
 
 .story-right {
   width: 85%;
@@ -953,6 +953,31 @@ nav {
   width: 100%;
   border-bottom: 3px white solid;
   border-top: 3px white solid; }
+
+.herophoto {
+  background-image: url("/images/boardwalk.jpg");
+  border-bottom: 3px white solid;
+  border-top: none;
+  width: 100%;
+  position: relative; }
+
+.backgroundhero {
+  background-image: url("/images/boardwalk_color3.jpg");
+  background-image: cover; }
+
+.norepeat {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.logo {
+  height: 44px;
+  padding-left: 10%;
+  padding-bottom: 5px; }
+
+.herocontainer {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
 
 .introimage-sizing {
   height: 800px; }
@@ -965,26 +990,25 @@ nav {
   position: inline-block;
   float: left;
   clear: both;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 30px; }
 
 .caption {
   font-family: "calluna";
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-top: -5px;
   margin-left: 10%;
-  margin-bottom: 30px; }
+  margin-bottom: 15px; }
 
 p {
   font-family: "calluna";
-  font-size: 1.2em;
-  margin-top: 20px;
+  font-size: 1.7em;
+  margin-top: 15px;
   margin-left: 10%;
   margin-right: 10%;
   color: white;
   line-height: 1.5;
-  padding-bottom: 20px;
   float: left;
   clear: both; }
 
@@ -992,12 +1016,13 @@ h1 {
   font-family: "lato";
   font-style: italic;
   font-weight: 300;
-  font-size: 2.5em;
+  font-size: 3.2em;
   line-height: 1.3;
   color: white;
   margin-top: 40px;
   padding-left: 10%;
-  padding-bottom: 40px; }
+  padding-bottom: 30px;
+  padding-right: 10%; }
 
 h2 {
   font-family: "calluna";
@@ -1006,20 +1031,20 @@ h2 {
   line-height: 1.3;
   color: white;
   padding-left: 10%;
-  padding-top: 80px;
-  margin-bottom: 40px;
+  padding-top: 60px;
+  margin-bottom: 20px;
   margin-right: 20px; }
 
 h3 {
   font-family: "calluna";
   font-style: italic;
-  font-size: 1.4em;
-  margin-top: 20px;
+  font-size: 1.8em;
   margin-left: 10%;
   margin-right: 10%;
   color: white;
-  line-height: 1.3;
-  margin-bottom: 40px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  margin-top: 30px;
   color: #f6f1df; }
 
 header {
@@ -1032,11 +1057,6 @@ header {
   overflow: hidden; }
   header img {
     float: left; }
-
-.logo {
-  height: 50px;
-  padding-left: 9%;
-  padding-bottom: 5px; }
 
 li {
   font-family: "lato";
@@ -1061,11 +1081,13 @@ li {
   margin-top: 30px; }
 
 .wrapper {
-  background-color: #8ba0b1;
   width: 100%;
   position: relative;
   margin-left: auto;
   margin-right: auto; }
+
+.landingbackground {
+  background-color: #597289; }
 
 .creation-header {
   font-size: 2em;
@@ -1148,7 +1170,11 @@ li {
   font-size: 1.45em;
   height: 25px;
   padding-top: 0px;
-  margin-top: 50px; }
+  margin-top: 30px;
+  margin-bottom: 40px; }
+
+.mementobutton {
+  background-color: #2c2e2e; }
 
 em {
   font-family: "lato";
@@ -1324,14 +1350,18 @@ em {
     float: left; }
 
   .newchapterbutton {
-    margin-top: 72px;
+    margin-top: 50px;
     font-size: 1.1em; }
 
   .headerphoto {
-    width: 100%;
-    overflow: hidden; }
+    padding-left: 10%;
+    padding-right: 10%; }
     .headerphoto .introimage-sizing {
       height: 100px; }
+    .headerphoto .mementobutton {
+      background-color: #a62522;
+      height: 100px;
+      border: 12px red solid; }
 
   h1 {
     font-size: 4em;
@@ -1339,10 +1369,12 @@ em {
     padding-bottom: 60px; }
 
   h3 {
-    font-size: 2.5em;
+    font-size: 2.1em;
     line-height: 1.5;
-    margin-top: 70px;
-    margin-bottom: 70px; }
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding-right: 14%;
+    padding-left: 14%; }
 
   h2 {
     font-size: 2.7em;
@@ -1350,6 +1382,21 @@ em {
 
   p {
     font-size: 1.7em;
-    line-height: 1.5; } }
+    line-height: 1.5;
+    padding-right: 30%; }
+
+  .newchapterbutton {
+    width: 220px;
+    margin-bottom: 50px; }
+
+  .centered {
+    margin-left: 13%;
+    margin-right: 20%; } }
+@media only screen and (min-width: 1000px) {
+  .headerphoto {
+    padding-left: 15%;
+    padding-right: 15%;
+    max-height: 100%;
+    max-width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

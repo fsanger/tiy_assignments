@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-	<title>Memento.me/create</title>
+	<title>Memento.me | Create a Memento</title>
 
 	<meta charset="utf-8">
 	<link rel="stylesheet" media="screen" href="css/style.css">
@@ -21,22 +21,27 @@
 
 <header>
 
-	<img src="images/MLogo.svg" class="logo"> 
+	<a href="/index.html"><img src="images/MLogo.svg" class="logo" ></a>
 
 	<nav class="nav-collapse">
 
 	  <ul>
-	  	<li><a class="menu" href="#">what&rsquo;s a memento?</a></li>
-	    <li><a class="menu" href="/index.html">experience a memento</a></li>
-	    <li><a class="menu" href="/create.html">create a memento</a></li>
-	    <li><a class="menu" href="#">sign-in</a></li>
+	  	<li><a href="/index.html">what&rsquo;s a memento?</a></li>
+	    <li><a href="/experience.html">experience a memento</a></li>
+	    <li><a href="/create.html">create a memento</a></li>
+	    <li><a href="#">sign-in</a></li>
 	  </ul>
 	</nav>
 
 </header>
 
-<div class="containermain">
+<div class="containermain backgroundhero norepeat bg">
 
+
+<!--  <div class="bg">
+<img src="images/boardwalk_color3.jpg">
+ </div>
+ -->
 <div class="wrapper">
 <h1 class="creation-header">Create a Memento</h1>
 
@@ -70,12 +75,18 @@
 				</div>
 
 				<div class="memento-description">
-					<div class="ckbox">
+		<!-- 			<div class="ckbox">
 					</div> 
 						public&nbsp;&nbsp;&nbsp;
 					<div class="ckbox">
 					</div> 
-						private
+						private -->
+					<form action="demo_form.asp" method="get">
+					  <input type="checkbox" unchecked> public
+					  <input type="checkbox" checked="checked"> private<br>
+<!-- 					  <input type="submit" value="Submit">
+ -->				</form>
+
 				</div>
 
 				<div class="form-question">
