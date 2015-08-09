@@ -955,14 +955,14 @@ nav {
   border-top: 3px white solid; }
 
 .herophoto {
-  background-image: url("/images/boardwalk.jpg");
+  background-image: url("/..images/boardwalk.jpg");
   border-bottom: 3px white solid;
   border-top: none;
   width: 100%;
   position: relative; }
 
 .backgroundhero {
-  background-image: url("/images/boardwalk_color3.jpg");
+  background-image: url("../images/boardwalk_color3.jpg");
   background-image: cover; }
 
 .norepeat {
