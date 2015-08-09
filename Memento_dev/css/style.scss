@@ -207,6 +207,25 @@ h3 {
   color: $m-cream;
 }
 
+h4 {
+  font-family: "lato";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2.2em;
+  line-height: 1.4;
+  // width: 300px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  padding-right: 10%;
+  background-color: $m-gold;
+  border-top: 2px white solid;
+  border-bottom: 2px white solid;
+
+
+}
+
 header {
 
   font-family: "lato";
@@ -529,6 +548,14 @@ em {
   min-width: 100%;
 }
 
+.tighten {
+  margin-bottom: 10px;
+}
+
+.centered {
+  margin-bottom: -30px;
+}
+
 // .content-containers {
 // height: 1800px;
 // width: 100%;
@@ -611,6 +638,27 @@ em {
   opacity: 1;
   visibility: visible;
 }
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// landing page 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+.icons-all {
+padding-left: 10%;
+padding-right: 10%;
+margin-top: 20px;
+margin-bottom: 40px;
+
+// background: $m-cream;
+
+}
+
+
+
+
 
 
 

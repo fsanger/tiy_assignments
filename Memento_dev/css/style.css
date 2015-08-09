@@ -1047,6 +1047,21 @@ h3 {
   margin-top: 30px;
   color: #f6f1df; }
 
+h4 {
+  font-family: "lato";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2.2em;
+  line-height: 1.4;
+  color: white;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  padding-right: 10%;
+  background-color: #cf8a4f;
+  border-top: 2px white solid;
+  border-bottom: 2px white solid; }
+
 header {
   font-family: "lato";
   background: #2c2e2e;
@@ -1279,6 +1294,12 @@ em {
   padding: 10px;
   min-width: 100%; }
 
+.tighten {
+  margin-bottom: 10px; }
+
+.centered {
+  margin-bottom: -30px; }
+
 .md-modal {
   position: fixed;
   top: 50%;
@@ -1310,6 +1331,12 @@ em {
 .md-show ~ .md-overlay {
   opacity: 1;
   visibility: visible; }
+
+.icons-all {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 40px; }
 
 .cd-fixed-bg {
   min-height: 50%;
