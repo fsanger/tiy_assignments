@@ -89,6 +89,10 @@ table {
   .js .nav-collapse.closed {
     max-height: none; }
 
+  .nav-collapse li ul {
+    width: 100%;
+    display: inline-block; }
+
   .nav-toggle {
     display: none; } }
 /* General Demo Style */
