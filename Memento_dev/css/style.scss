@@ -41,7 +41,9 @@ nav {
 }
 
 .timeline-left {
+  position: relative;
   float: left;
+  clear: both;
   // height: 3000px;
   background-color: $m-charcoal;
   // border-right: white 1px solid;
@@ -56,8 +58,9 @@ nav {
 .line {
   margin-left: 15%;
   border-left: 1px $m-cream solid;
-  height: 5000px;
-
+  height: 3925px;
+  float: left;
+  clear: both;
 }
 
 .story-right {
@@ -80,6 +83,7 @@ nav {
   border-top: none;
   width:100%;
   position: relative;
+  background-repeat: no-repeat;
   }
 
   .backgroundhero {
@@ -87,15 +91,10 @@ nav {
   // border-bottom: 3px white solid;
   // border-top: none;
   // width:100%;
-  // position: relative;
   background-image: cover;
   background-position: center;
-  }
-
-.norepeat {
   background-repeat: no-repeat;
-  background-size: cover;
-}  
+  }
 
 .logo {
 height: 44px;
@@ -114,14 +113,13 @@ padding-bottom: 5px;
 
 .herocontainer {
 width: 100%;
-// overflow: hidden;
 position: relative;
 overflow: hidden;
-
 }
 
 .introimage-sizing {
-  height: 800px;
+  overflow: hidden;
+  padding-bottom: 45px;
 }
 
 .familyphoto1 {
@@ -211,7 +209,7 @@ h3 {
 h4 {
   font-family: "lato";
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2.2em;
   line-height: 1.4;
   // width: 300px;
@@ -220,12 +218,24 @@ h4 {
   padding-left: 10%;
   padding-bottom: 20px;
   padding-right: 10%;
-  background-color: $m-gold;
-  border-top: 2px white solid;
-  border-bottom: 2px white solid;
-
-
+  // background-color: $m-gold;
+  // border-top: 2px white solid;
+  // border-bottom: 2px white solid;
 }
+
+h5 {
+  font-family: "lato";
+  font-weight: 600;
+  font-size: 2em;
+  color: $m-medblue;
+  margin-left: 10%;
+  margin-top: 150px;
+}
+// .option-spacing {
+//   margin-top: -60px;
+// }
+// 
+
 
 header {
 
@@ -434,7 +444,7 @@ background-color: $m-darkblue;
 background-color: $m-charcoal;
 height: 30px;
 min-width: 200px;
-padding-top: 4px;
+padding-top: 3px;
 }
 
 em {
@@ -647,20 +657,53 @@ em {
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-.icons-all {
-padding-left: 10%;
-padding-right: 10%;
-margin-top: 20px;
-margin-bottom: 40px;
-
-// background: $m-cream;
-
+.steps-container {
+  background-color: $m-cream;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
+.icons-all {
+margin-top: 30px;
+margin-bottom: 10px;
+padding-left: 10%;
+padding-right: 10%;
+width: 100%;
+float:left;
+clear:both;
+padding-bottom: 20px;
+border-bottom: 1px solid white;
+}
 
+.icons-size {
+max-width: 500px;
+}
 
+.steps {
+float:left;
+clear:both;
+}
 
+.psteps {
+margin-top: 5px;
+color: $m-charcoal;
+margin-bottom: 30px;
+line-height: 1.5;
+// background-color: $m-cream;
+float:left;
+clear:both;
+}
 
+.step-header {
+border-top: 3px solid white;
+border-bottom: 3px solid white;
+width: 100%;
+background-color: $m-gold;
+float:left;
+clear:both;
+}
+
+// background: $m-cream;
 
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -755,14 +798,26 @@ li {
 }
 }
 
-// .herologo  {
-// position: absolute;
-// margin-left: 30%;
-// margin-right: 30%;
-// top: 70%;
-// transform: translateY(-50%);
-// z-index: 3;
-// }
+.steps-container {
+  background-color: $m-cream;
+  overflow: hidden;
+  width: 100%;
+}
+
+.steps {
+float:left;
+clear:none;
+width: 30%;
+border-left: 2px white solid;
+border-right: 2px white solid;
+margin-left: 2.5%;
+overflow: auto;
+}
+
+.step-header {
+  min-height: 200px;
+}
+
 
 h1 {
   font-size: 4em;
@@ -777,7 +832,10 @@ h3 {
   margin-bottom: 70px;
   padding-right: 14%;
   padding-left: 14%;
+}
 
+.h3experience {
+  font-size: 1.9em;
 }
 
 h2 {
@@ -790,8 +848,7 @@ p {
 font-size: 1.7em;
 // width: 600px;
 line-height: 1.5;
-padding-right: 30%;
-}
+ }
 
 
 .newchapterbutton {
@@ -817,9 +874,23 @@ margin-bottom: 50px;
     padding-right: 15%;
     max-height: 100%;
     max-width: 100%;
+}
+
+// .herophoto {
+//     background-image: url("../images/boardwalk.jpg");
+//     padding-left: 15%;
+//     padding-right: 15%;
+//     max-height: 100%;
+//     max-width: 100%;
+//     background-repeat: no-repeat;
+//     border-bottom: 3px white solid;
+//     border-top: none;
+//     position: relative;
+
 
 }
-}
+
+
 
 
 
