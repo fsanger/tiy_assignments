@@ -21,10 +21,10 @@
 
 <header>
 
+	<!-- <a href="index.html"><img src="images/MLogo.svg" class="logo" ></a> -->
 	<a href="index.html"><img src="images/MLogo.svg" class="logo" ></a>
-	
-	<nav class="nav-collapse">
 
+	<nav class="nav-collapse">
 	  <ul>
 	  	<li><a href="index.html">what&rsquo;s a memento?</a></li>
 	    <li><a href="experience.html">experience a memento</a></li>
@@ -57,7 +57,7 @@
 
 
 				<div class="form-question">
-				The author of this Memento…
+				Author
 				</div>
 
 				<input type="text" class="memento-description" value="François Sanger">
@@ -66,12 +66,12 @@
 				</input>
 
 				<div class="form-question">
-				The title of this Memento…
+				Title
 				</div>
 				<input type="text" class="memento-description" value="Crossing the Ocean for Love">
 
 				<div class="form-question">
-				Make this Memento public or private…
+				Privacy setting
 				</div>
 
 				<div class="memento-description">
@@ -81,16 +81,15 @@
 					<div class="ckbox">
 					</div> 
 						private -->
-					<form action="demo_form.asp" method="get">
-					  <input type="checkbox" unchecked> public
-					  <input type="checkbox" unchecked="checked"> private<br>
-<!-- 					  <input type="submit" value="Submit">
- -->				</form>
+					<form>
+					<input type="radio" name="settings" value="public" checked>public
+					<input type="radio" name="settings" value="private">private
+					</form>
 
 				</div>
 
 				<div class="form-question">
-				Dedicate or describe your Memento…
+				Dedication or Description
 				</div>
 
 
@@ -106,42 +105,45 @@
 
 		<div class="chapter-list">
 
-			<h1 class="creation-subheader">Chapters</h1>
+			<h1 class="creation-subheader">Chapters
+			<a class= "md-trigger plussign" data-modal="modal-1">&nbsp;&nbsp;&nbsp;[+]</a></h1>
 
 			<div class="outline"> 
 
 <!-- 			<div class="form-question">
 				Create a chapter…
 				</div> -->
-				<div>
-
-					<div class="newchapterbutton md-trigger textdec mementobutton tighten" data-modal="modal-1">add a chapter</div>
-	<!-- 			<a href="#" class="textdec">add a chapter</a>  </div>
- -->					
-				</div>
+				
 
 			</div>
+
+			<div class="container">
+
+					
+				
+				</div>
 
 				<div class="form-question ">
-				Chapters already created…
+				Chapters already created
 				</div>
 
 			<div class="memento-description chapter">
-				<div class="chapter-no">chapter 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>edit </em></div>
-				The beautiful Vosges mountains of northeastern France are home to fresh spring waters, evergreen ringed lakes, and the misty… &nbsp;&nbsp;<em>MORE</em> 
+				<div class="chapter-no">chapter 1<a class="neweditbutton">edit</a></div>
+				The beautiful Vosges mountains of northeastern France are home to fresh spring waters, evergreen ringed lakes, and the misty… <em>MORE</em> 
 			</div>
 
 			<div class="memento-description chapter">
-				<div class="chapter-no">chapter 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>edit </em></div>
+				<div class="chapter-no">chapter 2 <a class="neweditbutton">edit</a></div>
 				In the following passage from my mother’s memoires, she relates her father’s story and his meeting his future wife. “My father… &nbsp;&nbsp;<em>MORE</em> 
 			</div>
 
-			<div class="memento-description chapter">
-				<div class="chapter-no"> chapter 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="overlay.html"> <em>EDIT</em> </a> 
+				<div class="memento-description chapter">
+					<div class="chapter-no"> chapter 3 
+					<div class="neweditbutton md-trigger" data-modal="modal-2">edit</div>
+					</div>
+					The success of the landing in Normandy was giving us hope, but the fighting was still going on. The American army had also... &nbsp;&nbsp; <em>MORE</em> 
 				</div>
-				The beautiful Vosges mountains of northeastern France are home to fresh spring waters, evergreen ringed lakes, and the misty &nbsp;&nbsp; <em>MORE</em> 
 			<div>
-				<div class="newchapterbutton md-triggertextdec mementobutton tighten" data-modal="modal-1">add a chapter</div>
 <!-- 			<a href="#" class="textdec">add a chapter</a>  </div>
  -->
 
@@ -180,20 +182,20 @@
 				<h1 class="creation-subheader">New Chapter </h1>
 
 				<div class="form-question">
-				Chapter number...
+				Chapter number
 				</div>
-				<input type="text" class="memento-description" value="Chapter 3">
+				<input type="text" class="memento-description modal" value="">
 
 				<div class="form-question">
-				Chapter name...
+				Chapter name
 				</div>
-				<input type="text" class="memento-description" value="American GIs arrive in the Vosges">
+				<input type="text" class="memento-description modal" value="">
 
 				<div class="form-question">
-				Chapter text...
+				Chapter text
 				</div>
 
-				<textarea rows="4" type="text" class="memento-description rowbox">The success of the landing in Normandy was giving us hope, but the fighting was still going on. The American army had also landed on the Mediterranean coast near St. Raphael, coming from Italy.They had come up North following the Rhone valley finding no resistance from the Germans who were busy fighting on the other fronts. Soon the little town of Thaon became full of American soldiers and the college for girls was taken over by a Corps of Engineers who were busy rebuilding the bridges that had been blown up by the retreating Germans. These engineers needed all kinds of materials for their work and they had trouble communicating with the French. So, a group of officers came to the principal, asking for someone to give them French lessons to help out. Of course it had to be someone who spoke English and Mlle Spiegel asked me if I would consider having a French class in the evening for those officers. Here I was a shy 24 year-old girl wondering how serious those officers were and if they were not just some jokers who wanted to have fun. I was reluctant to say “yes,” but I decided I could give them a chance and see if they really meant to learn French. So I started a class. </textarea>
+				<textarea rows="4" type="text" class="memento-description modal rowbox"> </textarea>
 
 		<!-- <h1 class="creation-subheader overlay-chapterbar ">Chapter 3</h1>
 
@@ -261,6 +263,47 @@
 <!-- here on up for what's to appear in modal popup -->
 
 
+				<button class="md-close close-button">save</button>
+				</div>
+
+
+
+
+			</div>
+		</div>
+		</div>
+</div>
+<div class="md-overlay"></div>
+
+
+<div class="md-modal md-effect-1" id="modal-2">
+	<div class="md-content">
+<!-- 		<h3>Modal Dialog</h3>
+ -->		<div>
+
+	<div class="overlay-container">
+		<div>
+<!-- here on down for what's to appear in modal popup -->
+		
+				<h1 class="creation-subheader">Edit Chapter </h1>
+
+				<div class="form-question">
+				Chapter number...
+				</div>
+				<input type="text" class="memento-description" value="Chapter 3">
+
+				<div class="form-question">
+				Chapter name...
+				</div>
+				<input type="text" class="memento-description" value="American GIs arrive in the Vosges">
+
+				<div class="form-question">
+				Chapter text...
+				</div>
+
+				<textarea rows="4" type="text" class="memento-description rowbox">The success of the landing in Normandy was giving us hope, but the fighting was still going on. The American army had also landed on the Mediterranean coast near St. Raphael, coming from Italy.They had come up North following the Rhone valley finding no resistance from the Germans who were busy fighting on the other fronts. Soon the little town of Thaon became full of American soldiers and the college for girls was taken over by a Corps of Engineers who were busy rebuilding the bridges that had been blown up by the retreating Germans. These engineers needed all kinds of materials for their work and they had trouble communicating with the French. So, a group of officers came to the principal, asking for someone to give them French lessons to help out. Of course it had to be someone who spoke English and Mlle Spiegel asked me if I would consider having a French class in the evening for those officers. Here I was a shy 24 year-old girl wondering how serious those officers were and if they were not just some jokers who wanted to have fun. I was reluctant to say “yes,” but I decided I could give them a chance and see if they really meant to learn French. So I started a class. </textarea>
+
+
 				<button class="md-close newchapterbutton">close</button>
 				</div>
 
@@ -269,26 +312,10 @@
 
 			</div>
 		</div>
-
-<div class="md-overlay"></div>
-
-
-<!-- 		<div class="md-modal md-effect-1" id="modal-1">
-			<div class="md-content">
-				<h3>Modal Dialog</h3>
-				<div>
-					<p>This is a modal window. You can do the following things with it:</p>
-					<ul>
-						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-						<li><strong>Close:</strong> click on the button below to close the modal.</li>
-					</ul>
-					<button class="md-close">Close me!</button>
-				</div>
-			</div>
 		</div>
-
+</div>
 <div class="md-overlay"></div>
+
 
 
 
